@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="品目マスタ" max_length="40" name="x_590393_ec_demo_item" type="collection">
-        <element display="true" label="item_name" max_length="40" name="item_name" type="string"/>
-        <element label="Item no" max_length="40" name="item_no" type="string"/>
+    <element label="品目マスタ" max_length="40" name="x_590393_ec_demo_item" sizeclass="0" type="collection">
+        <element display="true" label="品目名" max_length="40" name="item_name" type="string"/>
+        <element label="品目コード" max_length="40" name="item_no" type="string"/>
     </element>
 </database>

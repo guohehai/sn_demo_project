@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>item_name</column_label>
+        <column_label>品目名</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -54,14 +54,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-24 08:52:51</sys_created_on>
         <sys_id>500dae392fd030100f2658a72799b686</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>item_name</sys_name>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>品目名</sys_name>
         <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
         <sys_policy/>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
         <sys_update_name>sys_dictionary_x_590393_ec_demo_item_item_name</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-24 10:46:50</sys_updated_on>
+        <sys_updated_on>2021-05-24 14:28:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

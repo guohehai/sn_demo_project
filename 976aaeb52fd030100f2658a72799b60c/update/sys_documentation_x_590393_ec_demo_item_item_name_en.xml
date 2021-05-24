@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="item_name" label="item_name" language="en" table="x_590393_ec_demo_item">
+    <sys_documentation element="item_name" label="品目名" language="en" table="x_590393_ec_demo_item">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>item_name</element>
             <help/>
             <hint/>
-            <label>item_name</label>
+            <label>品目名</label>
             <language>en</language>
             <name>x_590393_ec_demo_item</name>
-            <plural>item_names</plural>
+            <plural>品目名s</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-05-24 08:52:51</sys_created_on>
             <sys_id>580dae392fd030100f2658a72799b68a</sys_id>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_name>item_name</sys_name>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_name>品目名</sys_name>
             <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
             <sys_policy/>
             <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
             <sys_update_name>sys_documentation_x_590393_ec_demo_item_item_name_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-24 10:43:30</sys_updated_on>
+            <sys_updated_on>2021-05-24 14:28:28</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
