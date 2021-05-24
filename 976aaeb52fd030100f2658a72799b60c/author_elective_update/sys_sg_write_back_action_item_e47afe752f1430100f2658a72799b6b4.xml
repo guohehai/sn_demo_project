@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="DELETE">
+        <description/>
+        <execution_script/>
+        <name>Delete (部品_品目_関係)</name>
+        <parameter_screen/>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-24 09:51:35</sys_created_on>
+        <sys_id>e47afe752f1430100f2658a72799b6b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete (部品_品目_関係)</sys_name>
+        <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_e47afe752f1430100f2658a72799b6b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-24 09:51:35</sys_updated_on>
+        <table>x_590393_ec_demo_rel_part_item</table>
+        <template/>
+        <type>delete</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="DELETE" query="documentkey=e47afe752f1430100f2658a72799b6b4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</application>
+        <file_path/>
+        <instance_id>abc9e184db775b044c1ff70fbf961981</instance_id>
+        <instance_name>dev68666</instance_name>
+        <name>sys_sg_write_back_action_item_e47afe752f1430100f2658a72799b6b4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item"><sys_sg_write_back_action_item action="INSERT_OR_UPDATE"><description/><execution_script/><name>Delete (部品_品目_関係)</name><parameter_screen/><query_condition/><sys_class_name>sys_sg_write_back_action_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-24 09:51:35</sys_created_on><sys_id>e47afe752f1430100f2658a72799b6b4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Delete (部品_品目_関係)</sys_name><sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package><sys_policy/><sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope><sys_update_name>sys_sg_write_back_action_item_e47afe752f1430100f2658a72799b6b4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-24 09:51:35</sys_updated_on><table>x_590393_ec_demo_rel_part_item</table><template/><type>delete</type><use_current_record_as_condition>true</use_current_record_as_condition><use_fields_for_ref_lookup>false</use_fields_for_ref_lookup></sys_sg_write_back_action_item><sys_translated_text action="delete_multiple" query="documentkey=e47afe752f1430100f2658a72799b6b4"/></record_update>]]></payload>
+        <payload_hash>584174302</payload_hash>
+        <record_name>Delete (部品_品目_関係)</record_name>
+        <reverted_from/>
+        <source>e36aaeb52fd030100f2658a72799b60e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-24 09:51:45</sys_created_on>
+        <sys_id>4b7ab2b52f1430100f2658a72799b680</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1799dc9986b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-24 09:51:45</sys_updated_on>
+        <type>Action item</type>
+        <update_guid>c37ab2b501143010c7df2c0d9506ea80</update_guid>
+        <update_guid_history>c37ab2b501143010c7df2c0d9506ea80:584174302</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-24 10:25:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_write_back_action_item">sys_sg_write_back_action_item</sys_db_object>
+        <sys_id>935960bc964446ba92dc7d5f79152504</sys_id>
+        <sys_metadata>e47afe752f1430100f2658a72799b6b4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete (部品_品目_関係)</sys_name>
+        <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">269806daf1544c2a8d525a9f49a20361</sys_scope_delete>
+        <sys_update_name>sys_sg_write_back_action_item_e47afe752f1430100f2658a72799b6b4</sys_update_name>
+        <sys_update_version display_value="sys_sg_write_back_action_item_e47afe752f1430100f2658a72799b6b4">4b7ab2b52f1430100f2658a72799b680</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-24 10:25:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

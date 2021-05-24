@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="部品マスタ" max_length="40" name="x_590393_ec_demo_part" type="collection">
+        <element display="true" label="部品名" max_length="40" name="part_name" type="string"/>
+        <element label="部品コード" max_length="40" name="part_no" type="string"/>
+        <element label="New Data Structure" max_length="800" name="u_data_structure_2" type="data_structure"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="構成リスト" max_length="1024" name="u_glide_list_1" reference="x_590393_ec_demo_item" type="glide_list"/>
+        <element attributes="encode_utf8=false" label="New Reference" max_length="32" name="u_reference_3" reference="x_590393_ec_demo_item" type="reference"/>
+        <element attributes="base_start=true" default="x_590393_ec_demo_item" label="品目リスト" max_length="80" name="u_table_name_1" type="table_name"/>
+        <index name="index">
+            <element name="u_reference_3"/>
+        </index>
+    </element>
+</database>

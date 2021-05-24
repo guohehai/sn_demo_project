@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="オーダー品目" max_length="40" name="x_590393_ec_demo_order_item" type="collection">
+        <element choice="3" label="状態" max_length="40" name="flag" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="準備中" sequence="10" value="start"/>
+                <element inactive_on_update="false" label="終了" sequence="20" value="end"/>
+            </choice>
+        </element>
+        <element label="品目" max_length="32" name="item_no" reference="x_590393_ec_demo_item" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="1" display="true" label="数量" max_length="4" name="order_num" type="integer"/>
+        <index name="index">
+            <element name="item_no"/>
+        </index>
+    </element>
+</database>
