@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_glide_list_1" table="x_590393_ec_demo_part">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="item_no" table="x_590393_ec_demo_part_item">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>no_sort=true,slushbucket_ref_no_expand=true</attributes>
+        <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>構成リスト</column_label>
+        <column_label>品目</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -17,20 +22,20 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>false</display>
+        <display>true</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_glide_list_1</element>
+        <element>item_no</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">glide_list</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>1024</max_length>
-        <name>x_590393_ec_demo_part</name>
+        <max_length>40</max_length>
+        <name>x_590393_ec_demo_part_item</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -47,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-05-24 09:27:49</sys_created_on>
-        <sys_id>2005f6312f1430100f2658a72799b6b9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>構成リスト</sys_name>
+        <sys_created_on>2021-05-26 06:22:31</sys_created_on>
+        <sys_id>798d186a2f9030100f2658a72799b62e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>品目</sys_name>
         <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
         <sys_policy/>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
-        <sys_update_name>sys_dictionary_x_590393_ec_demo_part_u_glide_list_1</sys_update_name>
+        <sys_update_name>sys_dictionary_x_590393_ec_demo_part_item_item_no</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-24 09:27:49</sys_updated_on>
+        <sys_updated_on>2021-05-26 07:53:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

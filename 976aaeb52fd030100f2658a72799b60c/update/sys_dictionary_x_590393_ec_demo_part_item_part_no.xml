@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_data_structure_2" table="x_590393_ec_demo_part">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="part_no" table="x_590393_ec_demo_part_item">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>New Data Structure</column_label>
+        <column_label>部品</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,22 +27,22 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_data_structure_2</element>
+        <element>part_no</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">data_structure</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>800</max_length>
-        <name>x_590393_ec_demo_part</name>
+        <max_length>40</max_length>
+        <name>x_590393_ec_demo_part_item</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_590393_ec_demo_part">x_590393_ec_demo_part</reference>
         <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
+        <reference_floats>true</reference_floats>
         <reference_key/>
         <reference_qual/>
         <reference_qual_condition/>
@@ -47,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-05-24 09:33:33</sys_created_on>
-        <sys_id>28567e712f1430100f2658a72799b662</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>New Data Structure</sys_name>
+        <sys_created_on>2021-05-26 06:22:30</sys_created_on>
+        <sys_id>fd4d506a2f9030100f2658a72799b69d</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>部品</sys_name>
         <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
         <sys_policy/>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
-        <sys_update_name>sys_dictionary_x_590393_ec_demo_part_u_data_structure_2</sys_update_name>
+        <sys_update_name>sys_dictionary_x_590393_ec_demo_part_item_part_no</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-24 09:33:33</sys_updated_on>
+        <sys_updated_on>2021-05-26 12:31:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
