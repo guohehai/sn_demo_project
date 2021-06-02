@@ -4,7 +4,7 @@
         <interleave_order_direction>asc</interleave_order_direction>
         <name>部品_品目_関係 Item Stream Segment</name>
         <order>0</order>
-        <screen display_value="部品_品目_関係s">647afe752f1430100f2658a72799b6b1</screen>
+        <screen/>
         <sys_class_name>sys_sg_item_stream_segment</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-24 09:51:35</sys_created_on>

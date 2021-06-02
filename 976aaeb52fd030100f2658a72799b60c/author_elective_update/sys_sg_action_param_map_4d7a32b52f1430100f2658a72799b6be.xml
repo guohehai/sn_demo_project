@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="DELETE">
+        <button display_value="Edit Button (部品マスタ)">4d7a32b52f1430100f2658a72799b695</button>
+        <item_parameter display_value="部品マスタ u_data_structure_2">c17a32b52f1430100f2658a72799b694</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-24 09:51:37</sys_created_on>
+        <sys_id>4d7a32b52f1430100f2658a72799b6be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c17a32b52f1430100f2658a72799b694</sys_name>
+        <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_4d7a32b52f1430100f2658a72799b6be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-24 09:51:37</sys_updated_on>
+        <ui_parameter display_value="New Data Structure">c57a32b52f1430100f2658a72799b6bc</ui_parameter>
+    </sys_sg_action_param_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</application>
+        <file_path/>
+        <instance_id>abc9e184db775b044c1ff70fbf961981</instance_id>
+        <instance_name>dev68666</instance_name>
+        <name>sys_sg_action_param_map_4d7a32b52f1430100f2658a72799b6be</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map"><sys_sg_action_param_map action="INSERT_OR_UPDATE"><button display_value="Edit Button (部品マスタ)">4d7a32b52f1430100f2658a72799b695</button><item_parameter display_value="部品マスタ u_data_structure_2">c17a32b52f1430100f2658a72799b694</item_parameter><sys_class_name>sys_sg_action_param_map</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-24 09:51:37</sys_created_on><sys_id>4d7a32b52f1430100f2658a72799b6be</sys_id><sys_mod_count>0</sys_mod_count><sys_name>c17a32b52f1430100f2658a72799b694</sys_name><sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package><sys_policy/><sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope><sys_update_name>sys_sg_action_param_map_4d7a32b52f1430100f2658a72799b6be</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-24 09:51:37</sys_updated_on><ui_parameter display_value="New Data Structure">c57a32b52f1430100f2658a72799b6bc</ui_parameter></sys_sg_action_param_map></record_update>]]></payload>
+        <payload_hash>776511479</payload_hash>
+        <record_name>c17a32b52f1430100f2658a72799b694</record_name>
+        <reverted_from/>
+        <source>e36aaeb52fd030100f2658a72799b60e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-24 09:51:47</sys_created_on>
+        <sys_id>ff7af2b52f1430100f2658a72799b600</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1799dc9a2e80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-24 09:51:47</sys_updated_on>
+        <type>Action parameters mapping</type>
+        <update_guid>7b7af2b57a14301003c77de73ba95900</update_guid>
+        <update_guid_history>7b7af2b57a14301003c77de73ba95900:776511479</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 03:47:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_action_param_map">sys_sg_action_param_map</sys_db_object>
+        <sys_id>01b46f01869a4689aacba99f93fe27a1</sys_id>
+        <sys_metadata>4d7a32b52f1430100f2658a72799b6be</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c17a32b52f1430100f2658a72799b694</sys_name>
+        <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">269806daf1544c2a8d525a9f49a20361</sys_scope_delete>
+        <sys_update_name>sys_sg_action_param_map_4d7a32b52f1430100f2658a72799b6be</sys_update_name>
+        <sys_update_version display_value="sys_sg_action_param_map_4d7a32b52f1430100f2658a72799b6be">ff7af2b52f1430100f2658a72799b600</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 03:47:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

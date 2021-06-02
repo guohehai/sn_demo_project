@@ -4,7 +4,7 @@
         <applet_launcher display_value="EC Demo">8f6a7e752f1430100f2658a72799b687</applet_launcher>
         <icon display_value="Home EC Demo">c76a7e752f1430100f2658a72799b689</icon>
         <label>EC Demo</label>
-        <roles>x_590393_hanbai.admin,x_590393_hanbai.sales,x_590393_hanbai.supplier</roles>
+        <roles/>
         <sys_class_name>sys_sg_applet_launcher_tab</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-24 09:51:28</sys_created_on>

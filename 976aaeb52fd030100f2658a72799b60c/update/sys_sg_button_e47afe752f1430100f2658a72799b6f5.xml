@@ -8,7 +8,7 @@
         <cancel_label/>
         <condition/>
         <condition_script/>
-        <condition_type>declarative</condition_type>
+        <condition_type>script</condition_type>
         <confirm_label/>
         <confirmation_message/>
         <context>global</context>
@@ -54,20 +54,20 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-24 09:51:35</sys_created_on>
         <sys_id>e47afe752f1430100f2658a72799b6f5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>New Button (部品_品目_関係)</sys_name>
         <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
         <sys_policy/>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
         <sys_update_name>sys_sg_button_e47afe752f1430100f2658a72799b6f5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-24 09:51:35</sys_updated_on>
+        <sys_updated_on>2021-06-02 11:58:40</sys_updated_on>
         <table>x_590393_ec_demo_rel_part_item</table>
         <take_value_from_field>false</take_value_from_field>
         <type>write_back</type>
         <unhighlighted_icons/>
         <use_overlay>false</use_overlay>
-        <write_back_action_item display_value="">687afe752f1430100f2658a72799b6b5</write_back_action_item>
+        <write_back_action_item display_value="New (部品_品目_関係)">8b98887c2f6030100f2658a72799b6e9</write_back_action_item>
         <zombified_screens/>
     </sys_sg_button>
     <sys_translated_text action="delete_multiple" query="documentkey=e47afe752f1430100f2658a72799b6f5"/>

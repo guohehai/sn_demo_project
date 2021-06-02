@@ -6,7 +6,7 @@
         <header_titles/>
         <hide_empty_sections>true</hide_empty_sections>
         <name>EC Demo</name>
-        <required_roles>x_590393_hanbai.admin,x_590393_hanbai.sales,x_590393_hanbai.supplier</required_roles>
+        <required_roles/>
         <search_config/>
         <sys_class_name>sys_sg_applet_launcher</sys_class_name>
         <sys_created_by>admin</sys_created_by>
