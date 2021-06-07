@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
     <sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE">
-        <applet_launcher display_value="EC Demo">8f6a7e752f1430100f2658a72799b687</applet_launcher>
+        <applet_launcher/>
         <order>50</order>
         <section display_value="オーダー品目">bb6abe752f1430100f2658a72799b66a</section>
         <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>
