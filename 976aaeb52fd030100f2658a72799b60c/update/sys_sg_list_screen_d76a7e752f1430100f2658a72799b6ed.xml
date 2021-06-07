@@ -4,25 +4,25 @@
         <description>販売システム（モバイル） オーダー品目</description>
         <dynamic_prefetch_count/>
         <empty_state/>
-        <fetch_type>not_required</fetch_type>
+        <fetch_type>on_demand</fetch_type>
         <filter/>
         <hide_filters>false</hide_filters>
         <hide_screen_name>false</hide_screen_name>
         <icon display_value="icon-Address-Book">c36a7e752f1430100f2658a72799b687</icon>
         <name>オーダー品目s</name>
-        <roles_override/>
+        <roles_override>x_590393_ec_demo.supplier</roles_override>
         <sys_class_name>sys_sg_list_screen</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-24 09:51:30</sys_created_on>
         <sys_id>d76a7e752f1430100f2658a72799b6ed</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>オーダー品目s</sys_name>
         <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
         <sys_policy/>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
         <sys_update_name>sys_sg_list_screen_d76a7e752f1430100f2658a72799b6ed</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-24 09:51:30</sys_updated_on>
+        <sys_updated_on>2021-06-07 12:05:30</sys_updated_on>
     </sys_sg_list_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=d76a7e752f1430100f2658a72799b6ed"/>
 </record_update>

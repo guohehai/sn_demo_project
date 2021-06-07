@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
     <sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE">
-        <applet_launcher display_value="EC Demo manager">0ae22e922fa070100f2658a72799b653</applet_launcher>
+        <applet_launcher/>
         <order>10</order>
         <section display_value="部品マスタ">e999fe9a2fe070100f2658a72799b6cb</section>
         <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>

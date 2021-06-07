@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
+    <sys_sg_applet_launcher_m2m_section action="DELETE">
+        <applet_launcher display_value="EC Demo">bc7c9b162fa470100f2658a72799b679</applet_launcher>
+        <order>10</order>
+        <section display_value="部品マスタ">3c7cdb162fa470100f2658a72799b668</section>
+        <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 11:52:49</sys_created_on>
+        <sys_id>387cdb162fa470100f2658a72799b66a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_387cdb162fa470100f2658a72799b66a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 11:52:49</sys_updated_on>
+    </sys_sg_applet_launcher_m2m_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</application>
+        <file_path/>
+        <instance_id>abc9e184db775b044c1ff70fbf961981</instance_id>
+        <instance_name>dev68666</instance_name>
+        <name>sys_sg_applet_launcher_m2m_section_387cdb162fa470100f2658a72799b66a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section"><sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE"><applet_launcher display_value="EC Demo">bc7c9b162fa470100f2658a72799b679</applet_launcher><order>10</order><section display_value="部品マスタ">3c7cdb162fa470100f2658a72799b668</section><sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-07 11:52:49</sys_created_on><sys_id>387cdb162fa470100f2658a72799b66a</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package><sys_policy/><sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope><sys_update_name>sys_sg_applet_launcher_m2m_section_387cdb162fa470100f2658a72799b66a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-07 11:52:49</sys_updated_on></sys_sg_applet_launcher_m2m_section></record_update>]]></payload>
+        <payload_hash>577226876</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>410bdb922fa470100f2658a72799b69d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 11:52:49</sys_created_on>
+        <sys_id>c17cdb162fa470100f2658a72799b66c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179e65176e50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 11:52:49</sys_updated_on>
+        <type>Applet Launcher Sections</type>
+        <update_guid>4d7cdb1622a470106dc58a5c113e2f6b</update_guid>
+        <update_guid_history>4d7cdb1622a470106dc58a5c113e2f6b:577226876</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 11:58:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_applet_launcher_m2m_section">sys_sg_applet_launcher_m2m_section</sys_db_object>
+        <sys_id>01c5cf24b36f41f1aad8e352009eec21</sys_id>
+        <sys_metadata>387cdb162fa470100f2658a72799b66a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">269806daf1544c2a8d525a9f49a20361</sys_scope_delete>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_387cdb162fa470100f2658a72799b66a</sys_update_name>
+        <sys_update_version display_value="sys_sg_applet_launcher_m2m_section_387cdb162fa470100f2658a72799b66a">c17cdb162fa470100f2658a72799b66c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 11:58:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

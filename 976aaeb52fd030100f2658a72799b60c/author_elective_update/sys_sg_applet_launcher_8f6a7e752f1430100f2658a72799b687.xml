@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher">
+    <sys_sg_applet_launcher action="DELETE">
+        <active>true</active>
+        <available_offline>false</available_offline>
+        <header_button/>
+        <header_titles/>
+        <hide_empty_sections>true</hide_empty_sections>
+        <name>EC Demo</name>
+        <required_roles/>
+        <search_config/>
+        <sys_class_name>sys_sg_applet_launcher</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-24 09:51:28</sys_created_on>
+        <sys_id>8f6a7e752f1430100f2658a72799b687</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EC Demo</sys_name>
+        <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_8f6a7e752f1430100f2658a72799b687</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-24 09:51:28</sys_updated_on>
+        <title>EC Demo</title>
+    </sys_sg_applet_launcher>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</application>
+        <file_path/>
+        <instance_id>abc9e184db775b044c1ff70fbf961981</instance_id>
+        <instance_name>dev68666</instance_name>
+        <name>sys_sg_applet_launcher_8f6a7e752f1430100f2658a72799b687</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher">
+    <sys_sg_applet_launcher action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_offline>false</available_offline>
+        <header_button/>
+        <header_titles/>
+        <hide_empty_sections>true</hide_empty_sections>
+        <name>EC Demo</name>
+        <required_roles/>
+        <search_config/>
+        <sys_class_name>sys_sg_applet_launcher</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-24 09:51:28</sys_created_on>
+        <sys_id>8f6a7e752f1430100f2658a72799b687</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EC Demo</sys_name>
+        <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_8f6a7e752f1430100f2658a72799b687</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-24 09:51:28</sys_updated_on>
+        <title>EC Demo</title>
+    </sys_sg_applet_launcher>
+</record_update>]]></payload>
+        <payload_hash>468686613</payload_hash>
+        <record_name>EC Demo</record_name>
+        <reverted_from/>
+        <source>4b179f5e2f6470100f2658a72799b6c3</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 11:30:20</sys_created_on>
+        <sys_id>e747db9e2f6470100f2658a72799b6ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179e63ce0df0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 11:30:20</sys_updated_on>
+        <type>Applet Launcher</type>
+        <update_guid>6747db9e7f647010f51878b05e28ffff</update_guid>
+        <update_guid_history>6747db9e7f647010f51878b05e28ffff:0,c5b572d686e070108464b76d72583bf1:440877477,77c2a296b6a07010ed41115d0874aed4:2031216524,1d7a32b536143010af2bf23cdea067c5:-977450485</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 12:07:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_applet_launcher">sys_sg_applet_launcher</sys_db_object>
+        <sys_id>cfbbe694d1344ddca0c2a15fc924d190</sys_id>
+        <sys_metadata>8f6a7e752f1430100f2658a72799b687</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EC Demo</sys_name>
+        <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">269806daf1544c2a8d525a9f49a20361</sys_scope_delete>
+        <sys_update_name>sys_sg_applet_launcher_8f6a7e752f1430100f2658a72799b687</sys_update_name>
+        <sys_update_version display_value="sys_sg_applet_launcher_8f6a7e752f1430100f2658a72799b687">e747db9e2f6470100f2658a72799b6ff</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 12:07:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_tab">
     <sys_sg_applet_launcher_tab action="INSERT_OR_UPDATE">
         <active>true</active>
-        <applet_launcher display_value="EC Demo sale">14836a962fa070100f2658a72799b6b6</applet_launcher>
+        <applet_launcher/>
         <icon display_value="icon-cart">5921d29587243300e0ef0cf888cb0bd0</icon>
         <label>EC DEMO_sale</label>
         <roles/>
