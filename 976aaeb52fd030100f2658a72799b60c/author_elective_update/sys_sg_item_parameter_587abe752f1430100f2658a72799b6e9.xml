@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="DELETE">
+        <default_value/>
+        <name>order_part flag</name>
+        <parent>d07abe752f1430100f2658a72799b6e9</parent>
+        <parent_table>sys_sg_write_back_action_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-24 09:51:33</sys_created_on>
+        <sys_id>587abe752f1430100f2658a72799b6e9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>order_part flag</sys_name>
+        <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_587abe752f1430100f2658a72799b6e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 06:10:14</sys_updated_on>
+        <type>string</type>
+    </sys_sg_item_parameter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</application>
+        <file_path/>
+        <instance_id>abc9e184db775b044c1ff70fbf961981</instance_id>
+        <instance_name>dev68666</instance_name>
+        <name>sys_sg_item_parameter_587abe752f1430100f2658a72799b6e9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter"><sys_sg_item_parameter action="INSERT_OR_UPDATE"><default_value/><name>order_part flag</name><parent>d07abe752f1430100f2658a72799b6e9</parent><parent_table>sys_sg_write_back_action_item</parent_table><sys_class_name>sys_sg_item_parameter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-24 09:51:33</sys_created_on><sys_id>587abe752f1430100f2658a72799b6e9</sys_id><sys_mod_count>2</sys_mod_count><sys_name>order_part flag</sys_name><sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package><sys_policy/><sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope><sys_update_name>sys_sg_item_parameter_587abe752f1430100f2658a72799b6e9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-09 06:10:14</sys_updated_on><type>string</type></sys_sg_item_parameter></record_update>]]></payload>
+        <payload_hash>-689466515</payload_hash>
+        <record_name>order_part flag</record_name>
+        <reverted_from/>
+        <source>410bdb922fa470100f2658a72799b69d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 06:10:14</sys_created_on>
+        <sys_id>923128072fe030100f2658a72799b6c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179ef648c670000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 06:10:14</sys_updated_on>
+        <type>Item Parameter</type>
+        <update_guid>9a312807ace0301071799e97dfc3f3c0</update_guid>
+        <update_guid_history>9a312807ace0301071799e97dfc3f3c0:-689466515,18312807c0e0301062c64450393df250:-404096305,127a72b58f143010feb9a9dc978640f4:-1751960563</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 06:11:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_item_parameter">sys_sg_item_parameter</sys_db_object>
+        <sys_id>8258a7ad7d12415083fc3b1eac468d10</sys_id>
+        <sys_metadata>587abe752f1430100f2658a72799b6e9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>order_part flag</sys_name>
+        <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">269806daf1544c2a8d525a9f49a20361</sys_scope_delete>
+        <sys_update_name>sys_sg_item_parameter_587abe752f1430100f2658a72799b6e9</sys_update_name>
+        <sys_update_version display_value="sys_sg_item_parameter_587abe752f1430100f2658a72799b6e9">923128072fe030100f2658a72799b6c1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 06:11:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

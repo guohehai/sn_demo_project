@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
     <sys_sg_action_param_map action="INSERT_OR_UPDATE">
         <button display_value="Edit Button (品目マスタ)">687afe752f1430100f2658a72799b673</button>
-        <item_parameter display_value="品目マスタ item_no">ac7afe752f1430100f2658a72799b672</item_parameter>
+        <item_parameter display_value="item item_no">ac7afe752f1430100f2658a72799b672</item_parameter>
         <sys_class_name>sys_sg_action_param_map</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-24 09:51:34</sys_created_on>
