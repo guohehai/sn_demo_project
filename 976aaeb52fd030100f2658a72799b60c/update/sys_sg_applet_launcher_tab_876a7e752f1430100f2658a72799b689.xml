@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_tab">
     <sys_sg_applet_launcher_tab action="INSERT_OR_UPDATE">
         <active>true</active>
-        <applet_launcher display_value="EC Demo copy">bc7c9b162fa470100f2658a72799b679</applet_launcher>
+        <applet_launcher display_value="EC Demo">bc7c9b162fa470100f2658a72799b679</applet_launcher>
         <icon display_value="Home EC Demo">c76a7e752f1430100f2658a72799b689</icon>
         <label>EC Demo</label>
         <roles/>
