@@ -8,7 +8,7 @@
         <filter/>
         <hide_filters>false</hide_filters>
         <hide_screen_name>false</hide_screen_name>
-        <icon display_value="icon-Address-Book">0de7365a2fe070100f2658a72799b613</icon>
+        <icon display_value="icon-Clone">0de7365a2fe070100f2658a72799b613</icon>
         <name>部品マスタs有効</name>
         <roles_override>x_590393_ec_demo.manager</roles_override>
         <sys_class_name>sys_sg_list_screen</sys_class_name>

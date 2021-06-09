@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
     <sys_sg_ui_parameter action="INSERT_OR_UPDATE">
-        <button display_value="New Button (part)">0d7a32b52f1430100f2658a72799b68b</button>
+        <button display_value="New Button (部品マスタ)">0d7a32b52f1430100f2658a72799b68b</button>
         <button_parent_table>x_590393_ec_demo_part</button_parent_table>
         <carried>false</carried>
         <constant/>

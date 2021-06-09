@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
     <sys_sg_action_param_map action="INSERT_OR_UPDATE">
         <button display_value="New Button (部品_品目_関係)">e47afe752f1430100f2658a72799b6f5</button>
-        <item_parameter display_value="部品_品目_関係 item_no">ec7afe752f1430100f2658a72799b6b5</item_parameter>
+        <item_parameter display_value="rela item_no">ec7afe752f1430100f2658a72799b6b5</item_parameter>
         <sys_class_name>sys_sg_action_param_map</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-02 05:02:38</sys_created_on>

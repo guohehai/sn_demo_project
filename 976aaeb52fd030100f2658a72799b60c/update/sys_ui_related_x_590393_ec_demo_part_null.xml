@@ -2,7 +2,7 @@
     <sys_ui_related sys_domain="global" table="x_590393_ec_demo_part" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="part_Mst - Default view" name="x_590393_ec_demo_part" related_list="NULL" sys_domain="global" view="Default view">9da94eaa2f1830100f2658a72799b637</list_id>
+            <list_id display_value="部品マスタ - Default view" name="x_590393_ec_demo_part" related_list="NULL" sys_domain="global" view="Default view">9da94eaa2f1830100f2658a72799b637</list_id>
             <order_by/>
             <position>0</position>
             <related_list>x_590393_ec_demo_part_item.part_no</related_list>
@@ -16,7 +16,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="part_Mst - Default view" name="x_590393_ec_demo_part" related_list="NULL" sys_domain="global" view="Default view">9da94eaa2f1830100f2658a72799b637</list_id>
+            <list_id display_value="部品マスタ - Default view" name="x_590393_ec_demo_part" related_list="NULL" sys_domain="global" view="Default view">9da94eaa2f1830100f2658a72799b637</list_id>
             <order_by/>
             <position>1</position>
             <related_list>REL:f2841c622f9030100f2658a72799b62d</related_list>
@@ -29,7 +29,7 @@
             <sys_updated_on>2021-05-26 14:13:49</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
-            <calculated_name>part_Mst - Default view</calculated_name>
+            <calculated_name>部品マスタ - Default view</calculated_name>
             <filter/>
             <name>x_590393_ec_demo_part</name>
             <order_by/>
