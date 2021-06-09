@@ -9,20 +9,20 @@
         <hide_filters>false</hide_filters>
         <hide_screen_name>false</hide_screen_name>
         <icon display_value="icon-Clone">0de7365a2fe070100f2658a72799b613</icon>
-        <name>部品マスタs有効</name>
+        <name>部品マスタs</name>
         <roles_override>x_590393_ec_demo.manager</roles_override>
         <sys_class_name>sys_sg_list_screen</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-07 09:13:04</sys_created_on>
         <sys_id>41e7365a2fe070100f2658a72799b617</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>部品マスタs有効</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>部品マスタs</sys_name>
         <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
         <sys_policy/>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
         <sys_update_name>sys_sg_list_screen_41e7365a2fe070100f2658a72799b617</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-07 12:06:00</sys_updated_on>
+        <sys_updated_on>2021-06-09 10:59:31</sys_updated_on>
     </sys_sg_list_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=41e7365a2fe070100f2658a72799b617"/>
 </record_update>

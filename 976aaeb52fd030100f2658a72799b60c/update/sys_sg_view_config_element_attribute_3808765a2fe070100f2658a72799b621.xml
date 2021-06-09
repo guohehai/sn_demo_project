@@ -6,16 +6,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-07 09:13:36</sys_created_on>
         <sys_id>3808765a2fe070100f2658a72799b621</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>c2eed5c2b7321010df65f6efce11a9cf</sys_name>
         <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
         <sys_policy/>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
         <sys_update_name>sys_sg_view_config_element_attribute_3808765a2fe070100f2658a72799b621</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-07 09:13:36</sys_updated_on>
+        <sys_updated_on>2021-06-09 10:59:55</sys_updated_on>
         <translated_value/>
-        <value>part_name</value>
+        <value>part_no</value>
         <view_config_element display_value="text_01_element">3408765a2fe070100f2658a72799b61f</view_config_element>
     </sys_sg_view_config_element_attribute>
 </record_update>
