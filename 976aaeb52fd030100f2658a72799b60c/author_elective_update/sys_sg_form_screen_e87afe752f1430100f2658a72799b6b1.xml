@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_screen">
+    <sys_sg_form_screen action="DELETE">
+        <available_offline>false</available_offline>
+        <data_item/>
+        <description>販売システム（モバイル）</description>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="icon-Address-Book">c36a7e752f1430100f2658a72799b687</icon>
+        <item_view/>
+        <name>部品_品目_関係 Form Screen</name>
+        <override_context_with_data_item>false</override_context_with_data_item>
+        <roles_override/>
+        <segments_height>medium</segments_height>
+        <segments_min_width>medium</segments_min_width>
+        <sys_class_name>sys_sg_form_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-24 09:51:35</sys_created_on>
+        <sys_id>e87afe752f1430100f2658a72799b6b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>部品_品目_関係 Form Screen</sys_name>
+        <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_update_name>sys_sg_form_screen_e87afe752f1430100f2658a72799b6b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-24 09:51:35</sys_updated_on>
+        <table>x_590393_ec_demo_rel_part_item</table>
+        <use_view_config>true</use_view_config>
+        <view_config/>
+    </sys_sg_form_screen>
+    <sys_translated_text action="DELETE" query="documentkey=e87afe752f1430100f2658a72799b6b1"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</application>
+        <file_path/>
+        <instance_id>abc9e184db775b044c1ff70fbf961981</instance_id>
+        <instance_name>dev68666</instance_name>
+        <name>sys_sg_form_screen_e87afe752f1430100f2658a72799b6b1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_screen">
+    <sys_sg_form_screen action="INSERT_OR_UPDATE">
+        <available_offline>false</available_offline>
+        <data_item/>
+        <description>販売システム（モバイル）</description>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="icon-Address-Book">c36a7e752f1430100f2658a72799b687</icon>
+        <item_view/>
+        <name>部品_品目_関係 Form Screen</name>
+        <override_context_with_data_item>false</override_context_with_data_item>
+        <roles_override/>
+        <segments_height>medium</segments_height>
+        <segments_min_width>medium</segments_min_width>
+        <sys_class_name>sys_sg_form_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-24 09:51:35</sys_created_on>
+        <sys_id>e87afe752f1430100f2658a72799b6b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>部品_品目_関係 Form Screen</sys_name>
+        <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_update_name>sys_sg_form_screen_e87afe752f1430100f2658a72799b6b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-24 09:51:35</sys_updated_on>
+        <table>x_590393_ec_demo_rel_part_item</table>
+        <use_view_config>true</use_view_config>
+        <view_config/>
+    </sys_sg_form_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=e87afe752f1430100f2658a72799b6b1"/>
+</record_update>]]></payload>
+        <payload_hash>327266280</payload_hash>
+        <record_name>部品_品目_関係 Form Screen</record_name>
+        <reverted_from/>
+        <source>4b179f5e2f6470100f2658a72799b6c3</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 11:30:20</sys_created_on>
+        <sys_id>73471f9e2f6470100f2658a72799b633</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179e63ce3bb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 11:30:20</sys_updated_on>
+        <type>Form Screen</type>
+        <update_guid>ff471f9e60647010fc929ba2cc247d32</update_guid>
+        <update_guid_history>ff471f9e60647010fc929ba2cc247d32:0,edd2c79a94247010e6e9dbaac573f33b:-247983940,1b7ab2b545143010e7ec8e1465d249ba:-2063948785,1b7ab2b545143010e7ec8e1465d249ba:-2063948785</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-10 13:05:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_form_screen">sys_sg_form_screen</sys_db_object>
+        <sys_id>43e78e9dbe3b4080adf026407ed9a469</sys_id>
+        <sys_metadata>e87afe752f1430100f2658a72799b6b1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>部品_品目_関係 Form Screen</sys_name>
+        <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">269806daf1544c2a8d525a9f49a20361</sys_scope_delete>
+        <sys_update_name>sys_sg_form_screen_e87afe752f1430100f2658a72799b6b1</sys_update_name>
+        <sys_update_version display_value="sys_sg_form_screen_e87afe752f1430100f2658a72799b6b1">73471f9e2f6470100f2658a72799b633</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-10 13:05:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

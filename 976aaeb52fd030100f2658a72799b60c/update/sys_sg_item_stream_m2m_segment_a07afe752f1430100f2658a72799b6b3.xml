@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_segment">
     <sys_sg_item_stream_m2m_segment action="INSERT_OR_UPDATE">
-        <item_stream display_value="部品_品目_関係 Item Stream">2c7afe752f1430100f2658a72799b6b2</item_stream>
+        <item_stream/>
         <segment display_value="部品_品目_関係 Item Stream Segment">a47afe752f1430100f2658a72799b6b2</segment>
         <sys_class_name>sys_sg_item_stream_m2m_segment</sys_class_name>
         <sys_created_by>admin</sys_created_by>

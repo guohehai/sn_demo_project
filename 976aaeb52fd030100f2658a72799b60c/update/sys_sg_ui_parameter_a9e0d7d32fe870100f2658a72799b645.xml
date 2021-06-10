@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
     <sys_sg_ui_parameter action="INSERT_OR_UPDATE">
-        <button display_value="New Button (部品_品目_関係)">e47afe752f1430100f2658a72799b6f5</button>
+        <button display_value="Edit Button (部品_品目_関係)">247afe752f1430100f2658a72799b6fb</button>
         <button_parent_table>x_590393_ec_demo_part_item</button_parent_table>
         <carried>false</carried>
         <constant/>
         <default_value/>
-        <default_value_type>none</default_value_type>
-        <field_name>part_no</field_name>
+        <default_value_type>source_field</default_value_type>
+        <field_name/>
         <input_source>user</input_source>
         <input_style>inline</input_style>
-        <input_type>list</input_type>
+        <input_type>text</input_type>
         <mandatory>false</mandatory>
         <max_entries/>
         <multi_entry>false</multi_entry>
         <multi_select>false</multi_select>
-        <name>部品</name>
-        <order>100</order>
+        <name>構成数</name>
+        <order>300</order>
         <parameter_type>button</parameter_type>
         <placeholder/>
         <screen/>
         <search_type>starts_with</search_type>
-        <source_field/>
+        <source_field>item_num</source_field>
         <sys_class_name>sys_sg_ui_parameter</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-02 04:45:22</sys_created_on>
-        <sys_id>045a4cbc2f6030100f2658a72799b61b</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>部品</sys_name>
+        <sys_created_on>2021-06-10 13:36:39</sys_created_on>
+        <sys_id>a9e0d7d32fe870100f2658a72799b645</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>構成数</sys_name>
         <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
         <sys_policy/>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
-        <sys_update_name>sys_sg_ui_parameter_045a4cbc2f6030100f2658a72799b61b</sys_update_name>
+        <sys_update_name>sys_sg_ui_parameter_a9e0d7d32fe870100f2658a72799b645</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 13:22:00</sys_updated_on>
-        <table_name>x_590393_ec_demo_part_item</table_name>
+        <sys_updated_on>2021-06-10 13:38:46</sys_updated_on>
+        <table_name/>
         <virtual_field_value>false</virtual_field_value>
     </sys_sg_ui_parameter>
-    <sys_translated_text action="delete_multiple" query="documentkey=045a4cbc2f6030100f2658a72799b61b"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=a9e0d7d32fe870100f2658a72799b645"/>
 </record_update>

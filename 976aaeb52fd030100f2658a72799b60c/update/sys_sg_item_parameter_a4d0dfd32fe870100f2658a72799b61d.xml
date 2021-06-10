@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
     <sys_sg_item_parameter action="INSERT_OR_UPDATE">
         <default_value/>
-        <name>部品_品目_関係 part_no</name>
-        <parent>247afe752f1430100f2658a72799b6f9</parent>
+        <name>rela item_num</name>
+        <parent>e8c5e57c2fa430100f2658a72799b6df</parent>
         <parent_table>sys_sg_write_back_action_item</parent_table>
         <sys_class_name>sys_sg_item_parameter</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-05-24 09:51:35</sys_created_on>
-        <sys_id>247afe752f1430100f2658a72799b6fa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>部品_品目_関係 part_no</sys_name>
+        <sys_created_on>2021-06-10 13:36:05</sys_created_on>
+        <sys_id>a4d0dfd32fe870100f2658a72799b61d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>rela item_num</sys_name>
         <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
         <sys_policy/>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
-        <sys_update_name>sys_sg_item_parameter_247afe752f1430100f2658a72799b6fa</sys_update_name>
+        <sys_update_name>sys_sg_item_parameter_a4d0dfd32fe870100f2658a72799b61d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-24 09:51:35</sys_updated_on>
-        <type>string</type>
+        <sys_updated_on>2021-06-10 13:37:10</sys_updated_on>
+        <type>integer</type>
     </sys_sg_item_parameter>
 </record_update>

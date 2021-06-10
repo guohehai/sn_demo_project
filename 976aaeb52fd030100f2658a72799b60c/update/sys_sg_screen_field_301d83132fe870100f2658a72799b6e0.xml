@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
     <sys_sg_screen_field action="INSERT_OR_UPDATE">
-        <data_item_field_name>item_no</data_item_field_name>
+        <data_item_field_name>item_num</data_item_field_name>
         <description_text/>
         <description_text_field/>
         <description_text_type/>
         <field_name/>
         <hidden>false</hidden>
-        <order>20</order>
+        <order>100</order>
         <record_id_field/>
         <screen display_value="Details">58428c342f6030100f2658a72799b658</screen>
         <screen_data_item_table>x_590393_ec_demo_part_item</screen_data_item_table>
         <sys_class_name>sys_sg_screen_field</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-02 04:08:36</sys_created_on>
-        <sys_id>98428c342f6030100f2658a72799b66b</sys_id>
+        <sys_created_on>2021-06-10 13:19:33</sys_created_on>
+        <sys_id>301d83132fe870100f2658a72799b6e0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>item_no</sys_name>
+        <sys_name>item_num</sys_name>
         <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
         <sys_policy/>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
-        <sys_update_name>sys_sg_screen_field_98428c342f6030100f2658a72799b66b</sys_update_name>
+        <sys_update_name>sys_sg_screen_field_301d83132fe870100f2658a72799b6e0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-02 04:08:36</sys_updated_on>
+        <sys_updated_on>2021-06-10 13:19:33</sys_updated_on>
         <type>auto</type>
         <value_only>false</value_only>
     </sys_sg_screen_field>
-    <sys_translated_text action="delete_multiple" query="documentkey=98428c342f6030100f2658a72799b66b"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=301d83132fe870100f2658a72799b6e0"/>
 </record_update>

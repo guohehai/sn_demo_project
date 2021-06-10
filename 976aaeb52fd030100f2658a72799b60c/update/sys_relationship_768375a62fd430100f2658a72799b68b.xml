@@ -15,7 +15,7 @@ function addMTOM() {
     gr.item_no = item_id;
     gr.insert();
 }]]></insert_callback>
-        <name>part_item_relation</name>
+        <name>part_item_relation（廃棄）</name>
         <query_from><![CDATA[answer = 'x_590393_ec_demo_item';
 ]]></query_from>
         <query_with><![CDATA[current.addQuery('mtm.x_590393_ec_demo_part_item.part_no', parent.sys_id);]]></query_with>
@@ -26,14 +26,14 @@ function addMTOM() {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-26 12:37:14</sys_created_on>
         <sys_id>768375a62fd430100f2658a72799b68b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>part_item_relation</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>part_item_relation（廃棄）</sys_name>
         <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
         <sys_policy/>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
         <sys_update_name>sys_relationship_768375a62fd430100f2658a72799b68b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-26 12:37:14</sys_updated_on>
+        <sys_updated_on>2021-06-10 13:00:11</sys_updated_on>
     </sys_relationship>
     <sys_translated_text action="delete_multiple" query="documentkey=768375a62fd430100f2658a72799b68b"/>
 </record_update>

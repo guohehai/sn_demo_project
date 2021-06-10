@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="DELETE">
+        <active>true</active>
+        <button display_value="Edit Button (部品_品目_関係)">247afe752f1430100f2658a72799b6fb</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon/>
+        <label>Edit</label>
+        <location>top</location>
+        <name>Edit (部品_品目_関係)</name>
+        <order/>
+        <parent>e87afe752f1430100f2658a72799b6b1</parent>
+        <parent_table>sys_sg_form_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-24 09:51:35</sys_created_on>
+        <sys_id>a47afe752f1430100f2658a72799b6fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit (部品_品目_関係)</sys_name>
+        <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_update_name>sys_sg_button_instance_a47afe752f1430100f2658a72799b6fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-24 09:51:35</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="DELETE" query="documentkey=a47afe752f1430100f2658a72799b6fe"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</application>
+        <file_path/>
+        <instance_id>abc9e184db775b044c1ff70fbf961981</instance_id>
+        <instance_name>dev68666</instance_name>
+        <name>sys_sg_button_instance_a47afe752f1430100f2658a72799b6fe</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Edit Button (部品_品目_関係)">247afe752f1430100f2658a72799b6fb</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon/>
+        <label>Edit</label>
+        <location>top</location>
+        <name>Edit (部品_品目_関係)</name>
+        <order/>
+        <parent>e87afe752f1430100f2658a72799b6b1</parent>
+        <parent_table>sys_sg_form_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-24 09:51:35</sys_created_on>
+        <sys_id>a47afe752f1430100f2658a72799b6fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit (部品_品目_関係)</sys_name>
+        <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_update_name>sys_sg_button_instance_a47afe752f1430100f2658a72799b6fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-24 09:51:35</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=a47afe752f1430100f2658a72799b6fe"/>
+</record_update>]]></payload>
+        <payload_hash>705654364</payload_hash>
+        <record_name>Edit (部品_品目_関係)</record_name>
+        <reverted_from/>
+        <source>4b179f5e2f6470100f2658a72799b6c3</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 11:30:20</sys_created_on>
+        <sys_id>f7471f9e2f6470100f2658a72799b625</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179e63ce2df0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 11:30:20</sys_updated_on>
+        <type>Function instance</type>
+        <update_guid>77471f9e4b6470100182473274187725</update_guid>
+        <update_guid_history>77471f9e4b6470100182473274187725:0,d1d2c79a32247010bdef1d10ea33692d:-323297040,df7ab2b5ba143010013620f24a48fa9a:-1549535086</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-10 13:05:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_button_instance">sys_sg_button_instance</sys_db_object>
+        <sys_id>07b9c15de5244ca680b01359e9549024</sys_id>
+        <sys_metadata>a47afe752f1430100f2658a72799b6fe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit (部品_品目_関係)</sys_name>
+        <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">269806daf1544c2a8d525a9f49a20361</sys_scope_delete>
+        <sys_update_name>sys_sg_button_instance_a47afe752f1430100f2658a72799b6fe</sys_update_name>
+        <sys_update_version display_value="sys_sg_button_instance_a47afe752f1430100f2658a72799b6fe">f7471f9e2f6470100f2658a72799b625</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-10 13:05:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
