@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="部品_品目_関係" max_length="40" name="x_590393_ec_demo_part_item" sizeclass="6" type="collection">
+    <element label="部品_品目_関係" max_length="40" name="x_590393_ec_demo_part_item" sizeclass="7" type="collection">
         <element display="true" label="品目" max_length="40" name="item_no" reference="x_590393_ec_demo_item" type="reference"/>
         <element label="部品" max_length="40" name="part_no" reference="x_590393_ec_demo_part" reference_floats="true" type="reference"/>
         <index name="index">

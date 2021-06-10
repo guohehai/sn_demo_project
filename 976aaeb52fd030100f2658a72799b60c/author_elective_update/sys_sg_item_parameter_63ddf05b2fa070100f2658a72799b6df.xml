@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="DELETE">
+        <default_value/>
+        <name>item_no</name>
+        <parent>246bf4572fa070100f2658a72799b661</parent>
+        <parent_table>sys_sg_data_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-10 02:53:52</sys_created_on>
+        <sys_id>63ddf05b2fa070100f2658a72799b6df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>item_no</sys_name>
+        <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_63ddf05b2fa070100f2658a72799b6df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-10 02:53:52</sys_updated_on>
+        <type>string</type>
+    </sys_sg_item_parameter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</application>
+        <file_path/>
+        <instance_id>abc9e184db775b044c1ff70fbf961981</instance_id>
+        <instance_name>dev68666</instance_name>
+        <name>sys_sg_item_parameter_63ddf05b2fa070100f2658a72799b6df</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter"><sys_sg_item_parameter action="INSERT_OR_UPDATE"><default_value/><name>item_no</name><parent>246bf4572fa070100f2658a72799b661</parent><parent_table>sys_sg_data_item</parent_table><sys_class_name>sys_sg_item_parameter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-10 02:53:52</sys_created_on><sys_id>63ddf05b2fa070100f2658a72799b6df</sys_id><sys_mod_count>0</sys_mod_count><sys_name>item_no</sys_name><sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package><sys_policy/><sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope><sys_update_name>sys_sg_item_parameter_63ddf05b2fa070100f2658a72799b6df</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-10 02:53:52</sys_updated_on><type>string</type></sys_sg_item_parameter></record_update>]]></payload>
+        <payload_hash>2082126747</payload_hash>
+        <record_name>item_no</record_name>
+        <reverted_from/>
+        <source>410bdb922fa470100f2658a72799b69d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-10 02:53:52</sys_created_on>
+        <sys_id>6bddf05b2fa070100f2658a72799b6e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179f3d7216c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-10 02:53:52</sys_updated_on>
+        <type>Item Parameter</type>
+        <update_guid>a3ddf05b9ba0701089d112c9b6d25ee1</update_guid>
+        <update_guid_history>a3ddf05b9ba0701089d112c9b6d25ee1:2082126747</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-10 03:06:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_item_parameter">sys_sg_item_parameter</sys_db_object>
+        <sys_id>0167d5c2c7a94b3680481c97b49811a9</sys_id>
+        <sys_metadata>63ddf05b2fa070100f2658a72799b6df</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>item_no</sys_name>
+        <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">269806daf1544c2a8d525a9f49a20361</sys_scope_delete>
+        <sys_update_name>sys_sg_item_parameter_63ddf05b2fa070100f2658a72799b6df</sys_update_name>
+        <sys_update_version display_value="sys_sg_item_parameter_63ddf05b2fa070100f2658a72799b6df">6bddf05b2fa070100f2658a72799b6e1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-10 03:06:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>Relation Data item</name>
+        <query_condition table="x_590393_ec_demo_part_item">part_no={{part_no}}<item endquery="false" field="part_no" goto="false" newquery="false" operator="=" or="false" value="{{part_no}}"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-10 02:43:00</sys_created_on>
+        <sys_id>246bf4572fa070100f2658a72799b661</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Relation Data item</sys_name>
+        <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_update_name>sys_sg_data_item_246bf4572fa070100f2658a72799b661</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-10 03:13:53</sys_updated_on>
+        <table>x_590393_ec_demo_part_item</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=246bf4572fa070100f2658a72799b661"/>
+</record_update>
