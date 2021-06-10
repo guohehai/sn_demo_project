@@ -11,7 +11,7 @@
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description>分解フロー</description>
         <internal_name>autodeliver</internal_name>
-        <label_cache>[{"name":"510b1998-ba3f-4f9d-927b-f9ff371a0b80.table_name","label":"5➛オーダー品目 Table","reference":"x_590393_ec_demo_order_item","reference_display":"オーダー品目","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"510b1998-ba3f-4f9d-927b-f9ff371a0b80.record","label":"5➛オーダー品目 Record","reference":"x_590393_ec_demo_order_item","reference_display":"オーダー品目","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"48ef23bb-6820-4fc7-8e63-6b5e9bbaaa70.record.order_num","label":"4➛オーダー品目 Record➛数量","reference":"","reference_display":"数量","type":"integer","base_type":"integer","parent_table_name":"x_590393_ec_demo_order_item","column_name":"order_num"},{"name":"48ef23bb-6820-4fc7-8e63-6b5e9bbaaa70.record.item_no.item_name","label":"4➛オーダー品目 Record➛品目➛品目名","reference":"","reference_display":"品目名","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_item","column_name":"item_name"},{"name":"48ef23bb-6820-4fc7-8e63-6b5e9bbaaa70.record.number","label":"4➛オーダー品目 Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_order_item","column_name":"number"},{"name":"48ef23bb-6820-4fc7-8e63-6b5e9bbaaa70.record.sys_id","label":"4➛オーダー品目 Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_590393_ec_demo_order_item","column_name":"sys_id"},{"name":"48ef23bb-6820-4fc7-8e63-6b5e9bbaaa70.record.item_no.item_no","label":"4➛オーダー品目 Record➛品目➛品目コード","reference":"","reference_display":"品目コード","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_item","column_name":"item_no"},{"name":"48ef23bb-6820-4fc7-8e63-6b5e9bbaaa70.table_name","label":"4➛オーダー品目 Table","reference":"x_590393_ec_demo_order_item","reference_display":"オーダー品目","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"48ef23bb-6820-4fc7-8e63-6b5e9bbaaa70.record","label":"4➛オーダー品目 Record","reference":"x_590393_ec_demo_order_item","reference_display":"オーダー品目","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bb69c9ab-adcb-4f73-805e-6385742a2322.item.item_no","label":"2➛部品_品目_関係 Record➛品目","reference":"x_590393_ec_demo_item","reference_display":"品目マスタ","type":"reference","base_type":"reference","parent_table_name":"x_590393_ec_demo_part_item","column_name":"item_no"},{"name":"407138ae-7ac8-4e12-97b4-bcb064814e8d.error_message","label":"3➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"407138ae-7ac8-4e12-97b4-bcb064814e8d.status","label":"3➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"407138ae-7ac8-4e12-97b4-bcb064814e8d.Table","label":"3➛品目マスタ Table","reference":"x_590393_ec_demo_item","reference_display":"品目マスタ","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"407138ae-7ac8-4e12-97b4-bcb064814e8d.Record","label":"3➛品目マスタ Record","reference":"x_590393_ec_demo_item","reference_display":"品目マスタ","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bb69c9ab-adcb-4f73-805e-6385742a2322.item","label":"2➛部品_品目_関係 Record","reference":"x_590393_ec_demo_part_item","reference_display":"部品_品目_関係","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"a1976cb2-a8f0-45e7-bdc9-8b03acccd9e9.email","label":"7➛Email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"138380a7-e484-4080-b196-b42d33aa57b0"}},{"name":"3d42f3f0-bce7-43b1-ab27-c31a4c939c46.item.item_no","label":"7➛品目マスタ Record➛品目コード","reference":"","reference_display":"品目コード","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_item","column_name":"item_no"},{"name":"3d42f3f0-bce7-43b1-ab27-c31a4c939c46.item","label":"7➛品目マスタ Record","reference":"x_590393_ec_demo_item","reference_display":"品目マスタ","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"f4ef4989-3a51-4e2a-9978-75e5390aa9e0.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f4ef4989-3a51-4e2a-9978-75e5390aa9e0.Table","label":"3➛品目マスタ Table","reference":"x_590393_ec_demo_item","reference_display":"品目マスタ","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f4ef4989-3a51-4e2a-9978-75e5390aa9e0.Records","label":"3➛品目マスタ Records","reference":"x_590393_ec_demo_item","reference_display":"品目マスタ","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ed9505de-c897-4f12-bea8-32adf6a7ba7e.error_message","label":"5➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"ed9505de-c897-4f12-bea8-32adf6a7ba7e.status","label":"5➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"ed9505de-c897-4f12-bea8-32adf6a7ba7e.Table","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ed9505de-c897-4f12-bea8-32adf6a7ba7e.Record","label":"5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e1c2c314-eaa6-46b8-a87f-5663f009d99a.error_message","label":"5➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"e1c2c314-eaa6-46b8-a87f-5663f009d99a.status","label":"5➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"e1c2c314-eaa6-46b8-a87f-5663f009d99a.Table","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e1c2c314-eaa6-46b8-a87f-5663f009d99a.Record","label":"5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bed0193a-6336-4885-a293-48aeb6cab277.error_message","label":"5➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"bed0193a-6336-4885-a293-48aeb6cab277.status","label":"5➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"bed0193a-6336-4885-a293-48aeb6cab277.Table","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bed0193a-6336-4885-a293-48aeb6cab277.Record","label":"5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.part_no.sys_id","label":"Trigger➛オーダー部品 Record➛部品➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_590393_ec_demo_part","column_name":"sys_id"},{"name":"6be33acc-1203-4f40-a966-00a336afb4a5.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6be33acc-1203-4f40-a966-00a336afb4a5.Table","label":"1➛部品_品目_関係 Table","reference":"x_590393_ec_demo_part_item","reference_display":"部品_品目_関係","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6be33acc-1203-4f40-a966-00a336afb4a5.Records","label":"1➛部品_品目_関係 Records","reference":"x_590393_ec_demo_part_item","reference_display":"部品_品目_関係","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8bdae8f7-69b6-4383-82ab-14adbdf5516d.record.number","label":"4➛オーダー品目 Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_order_item","column_name":"number"},{"name":"8bdae8f7-69b6-4383-82ab-14adbdf5516d.record.sys_created_on","label":"4➛オーダー品目 Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_590393_ec_demo_order_item","column_name":"sys_created_on"},{"name":"8bdae8f7-69b6-4383-82ab-14adbdf5516d.record.order_num","label":"4➛オーダー品目 Record➛数量","reference":"","reference_display":"数量","type":"integer","base_type":"integer","parent_table_name":"x_590393_ec_demo_order_item","column_name":"order_num"},{"name":"8bdae8f7-69b6-4383-82ab-14adbdf5516d.record.item_no.item_name","label":"4➛オーダー品目 Record➛品目➛品目名","reference":"","reference_display":"品目名","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_item","column_name":"item_name"},{"name":"8bdae8f7-69b6-4383-82ab-14adbdf5516d.record.item_no.item_no","label":"4➛オーダー品目 Record➛品目➛品目コード","reference":"","reference_display":"品目コード","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_item","column_name":"item_no"},{"name":"8bdae8f7-69b6-4383-82ab-14adbdf5516d.record.item_no","label":"4➛オーダー品目 Record➛品目","reference":"x_590393_ec_demo_item","reference_display":"品目マスタ","type":"reference","base_type":"reference","parent_table_name":"x_590393_ec_demo_order_item","column_name":"item_no"},{"name":"675d083b-c023-47fc-bbe6-b92cefdbe379.email","label":"7➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.part_no.u_reference_3.item_no","label":"Trigger➛オーダー部品 Record➛部品➛New Reference➛品目コード","reference":"","reference_display":"品目コード","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_item","column_name":"item_no"},{"name":"Created_1.current.part_no.u_reference_3.item_name","label":"Trigger➛オーダー部品 Record➛部品➛New Reference➛品目名","reference":"","reference_display":"品目名","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_item","column_name":"item_name"},{"name":"Created_1.current","label":"Trigger➛オーダー部品 Record","reference":"x_590393_ec_demo_order_part","reference_display":"オーダー部品","type":"reference","base_type":"reference","attributes":{}},{"name":"8bdae8f7-69b6-4383-82ab-14adbdf5516d.record","label":"4➛オーダー品目 Record","reference":"x_590393_ec_demo_order_item","reference_display":"オーダー品目","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8bdae8f7-69b6-4383-82ab-14adbdf5516d.table_name","label":"4➛オーダー品目 Table","reference":"x_590393_ec_demo_order_item","reference_display":"オーダー品目","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.part_no.part_no","label":"Trigger➛オーダー部品 Record➛部品➛部品コード","reference":"","reference_display":"部品コード","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_part","column_name":"part_no"}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.part_no.part_no","label":"Trigger➛オーダー部品 Record➛部品➛部品コード","reference":"","reference_display":"部品コード","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_part","column_name":"part_no"},{"name":"8bdae8f7-69b6-4383-82ab-14adbdf5516d.table_name","label":"4➛オーダー品目 Table","reference":"x_590393_ec_demo_order_item","reference_display":"オーダー品目","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8bdae8f7-69b6-4383-82ab-14adbdf5516d.record","label":"4➛オーダー品目 Record","reference":"x_590393_ec_demo_order_item","reference_display":"オーダー品目","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛オーダー部品 Record","reference":"x_590393_ec_demo_order_part","reference_display":"オーダー部品","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.part_no.u_reference_3.item_name","label":"Trigger➛オーダー部品 Record➛部品➛New Reference➛品目名","reference":"","reference_display":"品目名","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_item","column_name":"item_name"},{"name":"Created_1.current.part_no.u_reference_3.item_no","label":"Trigger➛オーダー部品 Record➛部品➛New Reference➛品目コード","reference":"","reference_display":"品目コード","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_item","column_name":"item_no"},{"name":"675d083b-c023-47fc-bbe6-b92cefdbe379.email","label":"7➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8bdae8f7-69b6-4383-82ab-14adbdf5516d.record.item_no","label":"4➛オーダー品目 Record➛品目","reference":"x_590393_ec_demo_item","reference_display":"品目マスタ","type":"reference","base_type":"reference","parent_table_name":"x_590393_ec_demo_order_item","column_name":"item_no"},{"name":"8bdae8f7-69b6-4383-82ab-14adbdf5516d.record.item_no.item_no","label":"4➛オーダー品目 Record➛品目➛品目コード","reference":"","reference_display":"品目コード","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_item","column_name":"item_no"},{"name":"8bdae8f7-69b6-4383-82ab-14adbdf5516d.record.item_no.item_name","label":"4➛オーダー品目 Record➛品目➛品目名","reference":"","reference_display":"品目名","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_item","column_name":"item_name"},{"name":"8bdae8f7-69b6-4383-82ab-14adbdf5516d.record.order_num","label":"4➛オーダー品目 Record➛数量","reference":"","reference_display":"数量","type":"integer","base_type":"integer","parent_table_name":"x_590393_ec_demo_order_item","column_name":"order_num"},{"name":"8bdae8f7-69b6-4383-82ab-14adbdf5516d.record.sys_created_on","label":"4➛オーダー品目 Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_590393_ec_demo_order_item","column_name":"sys_created_on"},{"name":"8bdae8f7-69b6-4383-82ab-14adbdf5516d.record.number","label":"4➛オーダー品目 Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_order_item","column_name":"number"},{"name":"6be33acc-1203-4f40-a966-00a336afb4a5.Records","label":"1➛部品_品目_関係 Records","reference":"x_590393_ec_demo_part_item","reference_display":"部品_品目_関係 Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6be33acc-1203-4f40-a966-00a336afb4a5.Table","label":"1➛部品_品目_関係 Table","reference":"x_590393_ec_demo_part_item","reference_display":"部品_品目_関係 Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6be33acc-1203-4f40-a966-00a336afb4a5.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.part_no.sys_id","label":"Trigger➛オーダー部品 Record➛部品➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_590393_ec_demo_part","column_name":"sys_id"},{"name":"bed0193a-6336-4885-a293-48aeb6cab277.Record","label":"5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bed0193a-6336-4885-a293-48aeb6cab277.Table","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bed0193a-6336-4885-a293-48aeb6cab277.status","label":"5➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"bed0193a-6336-4885-a293-48aeb6cab277.error_message","label":"5➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"e1c2c314-eaa6-46b8-a87f-5663f009d99a.Record","label":"5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e1c2c314-eaa6-46b8-a87f-5663f009d99a.Table","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e1c2c314-eaa6-46b8-a87f-5663f009d99a.status","label":"5➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"e1c2c314-eaa6-46b8-a87f-5663f009d99a.error_message","label":"5➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"ed9505de-c897-4f12-bea8-32adf6a7ba7e.Record","label":"5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ed9505de-c897-4f12-bea8-32adf6a7ba7e.Table","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ed9505de-c897-4f12-bea8-32adf6a7ba7e.status","label":"5➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"ed9505de-c897-4f12-bea8-32adf6a7ba7e.error_message","label":"5➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"f4ef4989-3a51-4e2a-9978-75e5390aa9e0.Records","label":"3➛品目マスタ Records","reference":"x_590393_ec_demo_item","reference_display":"品目マスタ","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f4ef4989-3a51-4e2a-9978-75e5390aa9e0.Table","label":"3➛品目マスタ Table","reference":"x_590393_ec_demo_item","reference_display":"品目マスタ","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f4ef4989-3a51-4e2a-9978-75e5390aa9e0.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3d42f3f0-bce7-43b1-ab27-c31a4c939c46.item","label":"7➛品目マスタ Record","reference":"x_590393_ec_demo_item","reference_display":"品目マスタ","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"3d42f3f0-bce7-43b1-ab27-c31a4c939c46.item.item_no","label":"7➛品目マスタ Record➛品目コード","reference":"","reference_display":"品目コード","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_item","column_name":"item_no"},{"name":"a1976cb2-a8f0-45e7-bdc9-8b03acccd9e9.email","label":"7➛Email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"138380a7-e484-4080-b196-b42d33aa57b0"}},{"name":"bb69c9ab-adcb-4f73-805e-6385742a2322.item","label":"2➛部品_品目_関係 Record","reference":"x_590393_ec_demo_part_item","reference_display":"部品_品目_関係 Record","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"407138ae-7ac8-4e12-97b4-bcb064814e8d.Record","label":"3➛品目マスタ Record","reference":"x_590393_ec_demo_item","reference_display":"品目マスタ Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"407138ae-7ac8-4e12-97b4-bcb064814e8d.Table","label":"3➛品目マスタ Table","reference":"x_590393_ec_demo_item","reference_display":"品目マスタ Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"407138ae-7ac8-4e12-97b4-bcb064814e8d.status","label":"3➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"407138ae-7ac8-4e12-97b4-bcb064814e8d.error_message","label":"3➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"bb69c9ab-adcb-4f73-805e-6385742a2322.item.item_no","label":"2➛部品_品目_関係 Record➛品目","reference":"x_590393_ec_demo_item","reference_display":"品目マスタ","type":"reference","base_type":"reference","parent_table_name":"x_590393_ec_demo_part_item","column_name":"item_no"},{"name":"48ef23bb-6820-4fc7-8e63-6b5e9bbaaa70.record","label":"4➛オーダー品目 Record","reference":"x_590393_ec_demo_order_item","reference_display":"オーダー品目 Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"48ef23bb-6820-4fc7-8e63-6b5e9bbaaa70.table_name","label":"4➛オーダー品目 Table","reference":"x_590393_ec_demo_order_item","reference_display":"オーダー品目 Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"48ef23bb-6820-4fc7-8e63-6b5e9bbaaa70.record.item_no.item_no","label":"4➛オーダー品目 Record➛品目➛品目コード","reference":"","reference_display":"品目コード","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_item","column_name":"item_no"},{"name":"48ef23bb-6820-4fc7-8e63-6b5e9bbaaa70.record.sys_id","label":"4➛オーダー品目 Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_590393_ec_demo_order_item","column_name":"sys_id"},{"name":"48ef23bb-6820-4fc7-8e63-6b5e9bbaaa70.record.number","label":"4➛オーダー品目 Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_order_item","column_name":"number"},{"name":"48ef23bb-6820-4fc7-8e63-6b5e9bbaaa70.record.item_no.item_name","label":"4➛オーダー品目 Record➛品目➛品目名","reference":"","reference_display":"品目名","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_item","column_name":"item_name"},{"name":"48ef23bb-6820-4fc7-8e63-6b5e9bbaaa70.record.order_num","label":"4➛オーダー品目 Record➛数量","reference":"","reference_display":"数量","type":"integer","base_type":"integer","parent_table_name":"x_590393_ec_demo_order_item","column_name":"order_num"},{"name":"510b1998-ba3f-4f9d-927b-f9ff371a0b80.record","label":"5➛オーダー品目 Record","reference":"x_590393_ec_demo_order_item","reference_display":"オーダー品目 Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"510b1998-ba3f-4f9d-927b-f9ff371a0b80.table_name","label":"5➛オーダー品目 Table","reference":"x_590393_ec_demo_order_item","reference_display":"オーダー品目 Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"48ef23bb-6820-4fc7-8e63-6b5e9bbaaa70.record.order_user.email","label":"4➛オーダー品目 Record➛担当者➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"}]</label_cache>
         <latest_snapshot>948bc9972fe070100f2658a72799b6d8</latest_snapshot>
         <master_snapshot>ac3909622f5430100f2658a72799b674</master_snapshot>
         <name>autoDeliver</name>
@@ -23,14 +23,14 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-24 10:00:59</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d69c76392f1430100f2658a72799b617</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_name>autoDeliver</sys_name>
         <sys_overrides/>
         <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
         <sys_update_name>sys_hub_flow_d69c76392f1430100f2658a72799b617</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 03:52:59</sys_updated_on>
+        <sys_updated_on>2021-06-10 09:28:44</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=d69c76392f1430100f2658a72799b617"/>
@@ -104,10 +104,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-24 10:05:29</sys_created_on>
         <sys_id>d8adf2792f1430100f2658a72799b6eb</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 03:52:59</sys_updated_on>
+        <sys_updated_on>2021-06-10 09:28:43</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -173,7 +173,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -231,14 +231,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-24 10:05:29</sys_created_on>
         <sys_id>90adf2792f1430100f2658a72799b6e5</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 03:52:59</sys_updated_on>
+        <sys_updated_on>2021-06-10 09:28:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -254,7 +254,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -312,14 +312,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-24 10:05:28</sys_created_on>
         <sys_id>ccadf2792f1430100f2658a72799b6d1</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 03:52:59</sys_updated_on>
+        <sys_updated_on>2021-06-10 09:28:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -347,10 +347,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-28 08:34:49</sys_created_on>
         <sys_id>0f3f8f032f5030100f2658a72799b643</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
-        <sys_updated_by>YFC000</sys_updated_by>
-        <sys_updated_on>2021-06-10 03:53:28</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-10 09:28:44</sys_updated_on>
         <ui_id>6be33acc-1203-4f40-a966-00a336afb4a5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0f3f8f032f5030100f2658a72799b643"/>
@@ -434,10 +434,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-28 08:46:45</sys_created_on>
         <sys_id>75f15fc32f5030100f2658a72799b67b</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
-        <sys_updated_by>YFC000</sys_updated_by>
-        <sys_updated_on>2021-06-10 03:53:28</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-10 09:28:44</sys_updated_on>
         <ui_id>48ef23bb-6820-4fc7-8e63-6b5e9bbaaa70</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=75f15fc32f5030100f2658a72799b67b"/>
@@ -474,11 +474,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-28 08:46:45</sys_created_on>
         <sys_id>f9f15fc32f5030100f2658a72799b67c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 03:50:24</sys_updated_on>
+        <sys_updated_on>2021-06-10 09:28:44</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>item_no={{407138ae-7ac8-4e12-97b4-bcb064814e8d.Record}}^flag=start^sys_created_by=111^parent_number={{Created_1.current}}</value>
+        <value>item_no={{407138ae-7ac8-4e12-97b4-bcb064814e8d.Record}}^flag=start^parent_number={{Created_1.current}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=75f15fc32f5030100f2658a72799b67b^sys_idNOT INd59b174f2f5030100f2658a72799b691"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
@@ -486,13 +486,13 @@
         <input_name>values</input_name>
         <instance>75f15fc32f5030100f2658a72799b67b</instance>
         <referenced_table>sys_hub_action_instance</referenced_table>
-        <script>{"flag":{"scriptActive":false,"savedValue":"start"},"sys_created_by":{"scriptActive":false,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar user_id \u003d \"\";\nvar queryString \u003d \"user_name\u003dYFC301\";\nvar now_GR \u003d new GlideRecord(\u0027sys_user\u0027);\nnow_GR.addEncodedQuery(queryString);\nnow_GR.query();\nwhile (now_GR.next()) {\n  user_id \u003d now_GR.getValue(\u0027user_name\u0027);\n}\nreturn user_id;","savedValue":""}}</script>
+        <script>{"flag":{"scriptActive":false,"savedValue":"start"}}</script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-28 09:28:45</sys_created_on>
         <sys_id>d59b174f2f5030100f2658a72799b691</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-28 09:38:16</sys_updated_on>
+        <sys_updated_on>2021-06-10 09:28:44</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -509,10 +509,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-28 09:38:16</sys_created_on>
         <sys_id>a4cd9bcf2f5030100f2658a72799b6a3</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
-        <sys_updated_by>YFC000</sys_updated_by>
-        <sys_updated_on>2021-06-10 03:53:28</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-10 09:28:44</sys_updated_on>
         <ui_id>510b1998-ba3f-4f9d-927b-f9ff371a0b80</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a4cd9bcf2f5030100f2658a72799b6a3"/>
@@ -538,10 +538,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-28 09:38:16</sys_created_on>
         <sys_id>64cd9bcf2f5030100f2658a72799b6a6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-28 09:38:16</sys_updated_on>
-        <value>sys_created_by=fd-scripted</value>
+        <sys_updated_on>2021-06-10 09:28:44</sys_updated_on>
+        <value>order_user={"display":"仕入 一郎","value":"c4e33f392fd430100f2658a72799b6d9"}</value>
         <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=a4cd9bcf2f5030100f2658a72799b6a3"/>
@@ -583,7 +583,7 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=a4cd9bcf2f5030100f2658a72799b6a3^sys_idNOT INa8cd9bcf2f5030100f2658a72799b6a4"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <input_name>values</input_name>
         <instance>a4cd9bcf2f5030100f2658a72799b6a3</instance>
         <referenced_table>sys_hub_action_instance</referenced_table>
@@ -591,9 +591,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-28 09:38:16</sys_created_on>
         <sys_id>a8cd9bcf2f5030100f2658a72799b6a4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-28 09:38:16</sys_updated_on>
+        <sys_updated_on>2021-06-10 09:28:44</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -610,10 +610,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-26 09:41:45</sys_created_on>
         <sys_id>c46bc5e22f5430100f2658a72799b655</sys_id>
-        <sys_mod_count>64</sys_mod_count>
+        <sys_mod_count>66</sys_mod_count>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
-        <sys_updated_by>YFC000</sys_updated_by>
-        <sys_updated_on>2021-06-10 03:53:28</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-10 09:28:44</sys_updated_on>
         <ui_id>675d083b-c023-47fc-bbe6-b92cefdbe379</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c46bc5e22f5430100f2658a72799b655"/>
@@ -625,10 +625,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-26 09:41:45</sys_created_on>
         <sys_id>1c6bc5e22f5430100f2658a72799b658</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-28 08:35:48</sys_updated_on>
-        <value>guohh@ewaysys.com</value>
+        <sys_updated_on>2021-06-10 09:28:44</sys_updated_on>
+        <value/>
         <variable display_value="To">59806bf4a70323008299b39f087901da</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -693,11 +693,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-26 09:41:45</sys_created_on>
         <sys_id>146bc5e22f5430100f2658a72799b658</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-26 09:41:45</sys_updated_on>
+        <sys_updated_on>2021-06-10 09:28:44</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value/>
+        <value>{{48ef23bb-6820-4fc7-8e63-6b5e9bbaaa70.record.order_user.email}} </value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=c46bc5e22f5430100f2658a72799b655^sys_idNOT IN906bc5e22f5430100f2658a72799b657"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
@@ -728,10 +728,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-28 08:46:44</sys_created_on>
         <sys_id>fdf15fc32f5030100f2658a72799b674</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
-        <sys_updated_by>YFC000</sys_updated_by>
-        <sys_updated_on>2021-06-10 03:53:28</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-10 09:28:44</sys_updated_on>
         <ui_id>407138ae-7ac8-4e12-97b4-bcb064814e8d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fdf15fc32f5030100f2658a72799b674"/>
@@ -797,10 +797,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-26 09:41:45</sys_created_on>
         <sys_id>c46bc5e22f5430100f2658a72799b64a</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 03:52:59</sys_updated_on>
+        <sys_updated_on>2021-06-10 09:28:44</sys_updated_on>
         <ui_id>db6f27a6-519d-400b-a50f-becdbfffbc20</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -867,10 +867,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-28 08:46:44</sys_created_on>
         <sys_id>fdf15fc32f5030100f2658a72799b66a</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 03:52:59</sys_updated_on>
+        <sys_updated_on>2021-06-10 09:28:44</sys_updated_on>
         <ui_id>bb69c9ab-adcb-4f73-805e-6385742a2322</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2180,7 +2180,7 @@
         <sys_created_on>2021-05-26 09:32:13</sys_created_on>
         <sys_id>203909622f5430100f2658a72799b68c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
         <sys_policy/>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
@@ -2203,7 +2203,7 @@
         <sys_created_on>2021-05-26 09:32:14</sys_created_on>
         <sys_id>203909622f5430100f2658a72799b696</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
         <sys_policy/>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
