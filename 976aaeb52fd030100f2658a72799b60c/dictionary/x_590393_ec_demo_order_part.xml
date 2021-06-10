@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="オーダー部品" max_length="40" name="x_590393_ec_demo_order_part" sizeclass="7" type="collection">
-        <element choice="3" default="start" display="true" label="状態" max_length="40" name="flag" type="choice">
+        <element choice="3" default="start" label="状態" max_length="40" name="flag" type="choice">
             <choice>
                 <element inactive_on_update="false" label="準備中" sequence="10" value="start"/>
                 <element inactive_on_update="false" label="終了" sequence="20" value="end"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="オーダー番号" max_length="40" name="number" read_only="true" type="string"/>
         <element default="1" label="数量" max_length="4" name="order_num" type="integer"/>
-        <element label="部品" max_length="32" name="part_no" reference="x_590393_ec_demo_part" type="reference"/>
+        <element label="部品" mandatory="true" max_length="32" name="part_no" reference="x_590393_ec_demo_part" type="reference"/>
         <index name="index">
             <element name="part_no"/>
         </index>
