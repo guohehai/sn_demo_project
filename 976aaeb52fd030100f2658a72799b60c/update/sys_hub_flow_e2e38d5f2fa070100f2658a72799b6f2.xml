@@ -11,8 +11,8 @@
         <copied_from_name/>
         <description>品目が揃ったら、部品管理者にメールをする。</description>
         <internal_name>autodeliverback</internal_name>
-        <label_cache>[{"name":"e79780f1-cc5b-40d0-bdfa-a13fb9b5dbd8.item.number","label":"2➛オーダー部品 Record➛オーダー番号","reference":"","reference_display":"オーダー番号","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_order_part","column_name":"number"},{"name":"44d544ed-b041-4110-8360-8759ed78189e.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44d544ed-b041-4110-8360-8759ed78189e.Table","label":"3➛オーダー品目 Table","reference":"x_590393_ec_demo_order_item","reference_display":"オーダー品目 Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44d544ed-b041-4110-8360-8759ed78189e.Records","label":"3➛オーダー品目 Records","reference":"x_590393_ec_demo_order_item","reference_display":"オーダー品目 Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e79780f1-cc5b-40d0-bdfa-a13fb9b5dbd8.item","label":"2➛オーダー部品 Record","reference":"x_590393_ec_demo_order_part","reference_display":"オーダー部品 Record","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"cbdf747a-6bdf-4087-8a44-84be55d25fdf.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cbdf747a-6bdf-4087-8a44-84be55d25fdf.Table","label":"1➛オーダー部品 Table","reference":"x_590393_ec_demo_order_part","reference_display":"オーダー部品 Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cbdf747a-6bdf-4087-8a44-84be55d25fdf.Records","label":"1➛オーダー部品 Records","reference":"x_590393_ec_demo_order_part","reference_display":"オーダー部品 Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"df93de42-517e-4cc3-abe3-762da6d8afe5.item","label":"4➛オーダー品目 Record","reference":"x_590393_ec_demo_order_item","reference_display":"オーダー品目","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"2c0901a4-84e2-4c57-8c60-192b0694a6e6.email","label":"5➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record","label":"5➛オーダー部品 Record","reference":"x_590393_ec_demo_order_part","reference_display":"オーダー部品 Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.table_name","label":"5➛オーダー部品 Table","reference":"x_590393_ec_demo_order_part","reference_display":"オーダー部品 Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b0cc571a-6ba4-475a-98de-25bbc2f5dd60.email","label":"6➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.number","label":"5➛オーダー部品 Record➛オーダー番号","reference":"","reference_display":"オーダー番号","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_order_part","column_name":"number"},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.part_no","label":"5➛オーダー部品 Record➛部品","reference":"x_590393_ec_demo_part","reference_display":"部品マスタ","type":"reference","base_type":"reference","parent_table_name":"x_590393_ec_demo_order_part","column_name":"part_no"},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.order_num","label":"5➛オーダー部品 Record➛数量","reference":"","reference_display":"数量","type":"integer","base_type":"integer","parent_table_name":"x_590393_ec_demo_order_part","column_name":"order_num"},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.flag","label":"5➛オーダー部品 Record➛状態","reference":"","reference_display":"状態","type":"choice","base_type":"choice","parent_table_name":"x_590393_ec_demo_order_part","column_name":"flag"},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.part_no.part_no","label":"5➛オーダー部品 Record➛部品➛部品コード","reference":"","reference_display":"部品コード","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_part","column_name":"part_no"},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.part_no.part_name","label":"5➛オーダー部品 Record➛部品➛部品名","reference":"","reference_display":"部品名","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_part","column_name":"part_name"},{"name":"e79780f1-cc5b-40d0-bdfa-a13fb9b5dbd8.item.order_user.phone","label":"2➛オーダー部品 Record➛担当者➛Business phone","reference":"","reference_display":"Business phone","type":"ph_number","base_type":"ph_number","parent_table_name":"sys_user","column_name":"phone"},{"name":"e79780f1-cc5b-40d0-bdfa-a13fb9b5dbd8.item.order_user.email","label":"2➛オーダー部品 Record➛担当者➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"}]</label_cache>
-        <latest_snapshot>526addd32f2470100f2658a72799b62a</latest_snapshot>
+        <label_cache>[{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.order_user.last_name","label":"5➛オーダー部品 Record➛担当者➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name"},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.order_user.first_name","label":"5➛オーダー部品 Record➛担当者➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"e79780f1-cc5b-40d0-bdfa-a13fb9b5dbd8.item.order_user.email","label":"2➛オーダー部品 Record➛担当者➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"e79780f1-cc5b-40d0-bdfa-a13fb9b5dbd8.item.order_user.phone","label":"2➛オーダー部品 Record➛担当者➛Business phone","reference":"","reference_display":"Business phone","type":"ph_number","base_type":"ph_number","parent_table_name":"sys_user","column_name":"phone"},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.part_no.part_name","label":"5➛オーダー部品 Record➛部品➛部品名","reference":"","reference_display":"部品名","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_part","column_name":"part_name"},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.part_no.part_no","label":"5➛オーダー部品 Record➛部品➛部品コード","reference":"","reference_display":"部品コード","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_part","column_name":"part_no"},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.flag","label":"5➛オーダー部品 Record➛状態","reference":"","reference_display":"状態","type":"choice","base_type":"choice","parent_table_name":"x_590393_ec_demo_order_part","column_name":"flag"},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.order_num","label":"5➛オーダー部品 Record➛数量","reference":"","reference_display":"数量","type":"integer","base_type":"integer","parent_table_name":"x_590393_ec_demo_order_part","column_name":"order_num"},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.part_no","label":"5➛オーダー部品 Record➛部品","reference":"x_590393_ec_demo_part","reference_display":"部品マスタ","type":"reference","base_type":"reference","parent_table_name":"x_590393_ec_demo_order_part","column_name":"part_no"},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.number","label":"5➛オーダー部品 Record➛オーダー番号","reference":"","reference_display":"オーダー番号","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_order_part","column_name":"number"},{"name":"b0cc571a-6ba4-475a-98de-25bbc2f5dd60.email","label":"6➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.table_name","label":"5➛オーダー部品 Table","reference":"x_590393_ec_demo_order_part","reference_display":"オーダー部品","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record","label":"5➛オーダー部品 Record","reference":"x_590393_ec_demo_order_part","reference_display":"オーダー部品","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2c0901a4-84e2-4c57-8c60-192b0694a6e6.email","label":"5➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"df93de42-517e-4cc3-abe3-762da6d8afe5.item","label":"4➛オーダー品目 Record","reference":"x_590393_ec_demo_order_item","reference_display":"オーダー品目","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"cbdf747a-6bdf-4087-8a44-84be55d25fdf.Records","label":"1➛オーダー部品 Records","reference":"x_590393_ec_demo_order_part","reference_display":"オーダー部品","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cbdf747a-6bdf-4087-8a44-84be55d25fdf.Table","label":"1➛オーダー部品 Table","reference":"x_590393_ec_demo_order_part","reference_display":"オーダー部品","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cbdf747a-6bdf-4087-8a44-84be55d25fdf.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e79780f1-cc5b-40d0-bdfa-a13fb9b5dbd8.item","label":"2➛オーダー部品 Record","reference":"x_590393_ec_demo_order_part","reference_display":"オーダー部品","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"44d544ed-b041-4110-8360-8759ed78189e.Records","label":"3➛オーダー品目 Records","reference":"x_590393_ec_demo_order_item","reference_display":"オーダー品目","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44d544ed-b041-4110-8360-8759ed78189e.Table","label":"3➛オーダー品目 Table","reference":"x_590393_ec_demo_order_item","reference_display":"オーダー品目","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44d544ed-b041-4110-8360-8759ed78189e.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e79780f1-cc5b-40d0-bdfa-a13fb9b5dbd8.item.number","label":"2➛オーダー部品 Record➛オーダー番号","reference":"","reference_display":"オーダー番号","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_order_part","column_name":"number"},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.order_user","label":"5➛オーダー部品 Record➛担当者","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_590393_ec_demo_order_part","column_name":"order_user"}]</label_cache>
+        <latest_snapshot>c0d43a5b2f6870100f2658a72799b68d</latest_snapshot>
         <master_snapshot>446a5dd32f2470100f2658a72799b661</master_snapshot>
         <name>autoDeliverBack</name>
         <natlang/>
@@ -23,14 +23,14 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 03:20:17</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e2e38d5f2fa070100f2658a72799b6f2</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>autoDeliverBack</sys_name>
         <sys_overrides/>
         <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
         <sys_update_name>sys_hub_flow_e2e38d5f2fa070100f2658a72799b6f2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 09:14:11</sys_updated_on>
+        <sys_updated_on>2021-06-10 11:31:44</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=e2e38d5f2fa070100f2658a72799b6f2"/>
@@ -109,10 +109,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 03:26:00</sys_created_on>
         <sys_id>1e35c9132fe070100f2658a72799b688</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 09:14:10</sys_updated_on>
+        <sys_updated_on>2021-06-10 11:31:44</sys_updated_on>
         <trigger_definition display_value="Repeat">f63f0d94c32222002841b63b12d3aeed</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -161,10 +161,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 04:51:27</sys_created_on>
         <sys_id>86c8dd532f2470100f2658a72799b6eb</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 09:14:10</sys_updated_on>
+        <sys_updated_on>2021-06-10 11:33:33</sys_updated_on>
         <ui_id>b3cb82db-7595-4c61-a829-c59cdb872fed</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=86c8dd532f2470100f2658a72799b6eb"/>
@@ -247,10 +247,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 03:26:00</sys_created_on>
         <sys_id>9235c9132fe070100f2658a72799b6b6</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 09:14:10</sys_updated_on>
+        <sys_updated_on>2021-06-10 11:33:33</sys_updated_on>
         <ui_id>cbdf747a-6bdf-4087-8a44-84be55d25fdf</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9235c9132fe070100f2658a72799b6b6"/>
@@ -311,10 +311,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 04:51:27</sys_created_on>
         <sys_id>cec8dd532f2470100f2658a72799b6f2</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 09:14:10</sys_updated_on>
+        <sys_updated_on>2021-06-10 11:33:34</sys_updated_on>
         <ui_id>b0cc571a-6ba4-475a-98de-25bbc2f5dd60</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cec8dd532f2470100f2658a72799b6f2"/>
@@ -381,11 +381,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 04:51:27</sys_created_on>
         <sys_id>4ec8dd532f2470100f2658a72799b6f4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 04:58:15</sys_updated_on>
+        <sys_updated_on>2021-06-10 11:31:27</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;order no:&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:5e840ceb-c023-4f79-b7c5-3744f5d1ad76}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:5e840ceb-c023-4f79-b7c5-3744f5d1ad76}}"&gt;&lt;span class="data-pill-content-container"&gt;5&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;オーダー部品 Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;オーダー番号&lt;button id="transform_function_facade_5e840ceb-c023-4f79-b7c5-3744f5d1ad76" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        <value>&lt;p data-tinymcerootblock=""&gt;担当者：&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:a536bb49-e4be-481b-987f-862d93a2aed8}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:a536bb49-e4be-481b-987f-862d93a2aed8}}"&gt;&lt;span class="data-pill-content-container"&gt;5&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;オーダー部品 Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;担当者&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;First name&lt;button id="transform_function_facade_a536bb49-e4be-481b-987f-862d93a2aed8" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:5a19205f-7fe2-42d9-8801-5709efbc609c}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:5a19205f-7fe2-42d9-8801-5709efbc609c}}"&gt;&lt;span class="data-pill-content-container"&gt;5&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;オーダー部品 Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;担当者&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Last name&lt;button id="transform_function_facade_5a19205f-7fe2-42d9-8801-5709efbc609c" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;order no:&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:5e840ceb-c023-4f79-b7c5-3744f5d1ad76}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:5e840ceb-c023-4f79-b7c5-3744f5d1ad76}}"&gt;&lt;span class="data-pill-content-container"&gt;5&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;オーダー部品 Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;オーダー番号&lt;button id="transform_function_facade_5e840ceb-c023-4f79-b7c5-3744f5d1ad76" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;部品：&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:0e83e58b-fe46-49b1-8b79-1a960270556e}}"&gt;&lt;span class="data-pill-content-container"&gt;5&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;オーダー部品 Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;部品&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;部品コード&lt;button id="transform_function_facade_0e83e58b-fe46-49b1-8b79-1a960270556e" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;，&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:6a814ed1-fba4-4864-9da2-34b8c37e86c4}}"&gt;&lt;span class="data-pill-content-container"&gt;5&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;オーダー部品 Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;部品&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;部品名&lt;button id="transform_function_facade_6a814ed1-fba4-4864-9da2-34b8c37e86c4" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;数量：&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:78aab99b-59ac-4556-a243-de56b9e6f1c8}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:78aab99b-59ac-4556-a243-de56b9e6f1c8}}"&gt;&lt;span class="data-pill-content-container"&gt;5&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;オーダー部品 Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;数量&lt;button id="transform_function_facade_78aab99b-59ac-4556-a243-de56b9e6f1c8" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;状态：&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:f1eed7eb-21c4-462a-a3e8-c614850605e2}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:f1eed7eb-21c4-462a-a3e8-c614850605e2}}"&gt;&lt;span class="data-pill-content-container"&gt;5&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;オーダー部品 Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;状態&lt;button id="transform_function_facade_f1eed7eb-21c4-462a-a3e8-c614850605e2" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
@@ -452,10 +453,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 03:26:01</sys_created_on>
         <sys_id>ee35c9132fe070100f2658a72799b6c3</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 09:14:10</sys_updated_on>
+        <sys_updated_on>2021-06-10 11:33:33</sys_updated_on>
         <ui_id>44d544ed-b041-4110-8360-8759ed78189e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ee35c9132fe070100f2658a72799b6c3"/>
@@ -538,10 +539,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 03:26:01</sys_created_on>
         <sys_id>2e35c9132fe070100f2658a72799b6ba</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 09:14:10</sys_updated_on>
+        <sys_updated_on>2021-06-10 11:31:44</sys_updated_on>
         <ui_id>e79780f1-cc5b-40d0-bdfa-a13fb9b5dbd8</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -582,10 +583,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 04:51:27</sys_created_on>
         <sys_id>4ec8dd532f2470100f2658a72799b6e4</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 09:14:10</sys_updated_on>
+        <sys_updated_on>2021-06-10 11:31:44</sys_updated_on>
         <ui_id>c1eaf811-00dd-4ee9-afa2-bb8b3f767b99</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -630,7 +631,7 @@
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=e2e38d5f2fa070100f2658a72799b6f2^sys_idNOT IN0ec8dd532f2470100f2658a72799b6f7,4ac8dd532f2470100f2658a72799b6f7,655ad9d32f2470100f2658a72799b6f1,86c8dd532f2470100f2658a72799b6f7,a15ad9d32f2470100f2658a72799b6f1,cec8dd532f2470100f2658a72799b6f7"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=e2e38d5f2fa070100f2658a72799b6f2^sys_idNOT IN0ec8dd532f2470100f2658a72799b6f7,4ac8dd532f2470100f2658a72799b6f7,4d9f92172f2870100f2658a72799b6e1,655ad9d32f2470100f2658a72799b6f1,86c8dd532f2470100f2658a72799b6f7,9954be1b2f6870100f2658a72799b677,a15ad9d32f2470100f2658a72799b6f1,cec8dd532f2470100f2658a72799b6f7,d554be1b2f6870100f2658a72799b677"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>e2e38d5f2fa070100f2658a72799b6f2</attached_to>
         <extra_info/>
@@ -664,6 +665,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>7a4d079e-52c1-4aaa-8413-0862e4e97536</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e2e38d5f2fa070100f2658a72799b6f2</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b3cb82db-7595-4c61-a829-c59cdb872fed.record.order_user}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-10 10:00:46</sys_created_on>
+        <sys_id>4d9f92172f2870100f2658a72799b6e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-10 10:00:46</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>68cb2caa-940c-4488-9864-d32f36495131</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>e2e38d5f2fa070100f2658a72799b6f2</attached_to>
@@ -703,6 +721,23 @@
         <attached_to>e2e38d5f2fa070100f2658a72799b6f2</attached_to>
         <extra_info/>
         <order>0</order>
+        <prescription>{{b3cb82db-7595-4c61-a829-c59cdb872fed.record.order_user.last_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-10 11:31:27</sys_created_on>
+        <sys_id>9954be1b2f6870100f2658a72799b677</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-10 11:31:27</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5a19205f-7fe2-42d9-8801-5709efbc609c</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e2e38d5f2fa070100f2658a72799b6f2</attached_to>
+        <extra_info/>
+        <order>0</order>
         <prescription>{{b3cb82db-7595-4c61-a829-c59cdb872fed.record.part_no.part_no}}</prescription>
         <source_ui_id/>
         <sys_created_by>admin</sys_created_by>
@@ -733,22 +768,39 @@
         <transform_definition_id/>
         <ui_id>f1eed7eb-21c4-462a-a3e8-c614850605e2</ui_id>
     </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e2e38d5f2fa070100f2658a72799b6f2</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b3cb82db-7595-4c61-a829-c59cdb872fed.record.order_user.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-10 11:31:27</sys_created_on>
+        <sys_id>d554be1b2f6870100f2658a72799b677</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-10 11:31:27</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>a536bb49-e4be-481b-987f-862d93a2aed8</ui_id>
+    </sys_hub_pill_compound>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=e2e38d5f2fa070100f2658a72799b6f2^sys_idNOT IN306a9dd32f2470100f2658a72799b61c"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"306a9dd32f2470100f2658a72799b61c","name":"plan"}}</plan>
         <plan_id>e2e38d5f2fa070100f2658a72799b6f2</plan_id>
-        <snapshot>526addd32f2470100f2658a72799b62a</snapshot>
+        <snapshot>c0d43a5b2f6870100f2658a72799b68d</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 04:58:28</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>306a9dd32f2470100f2658a72799b61c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 04:58:28</sys_updated_on>
+        <sys_updated_on>2021-06-10 11:31:43</sys_updated_on>
         <trigger display_value="">346a9dd32f2470100f2658a72799b619</trigger>
     </sys_flow_trigger_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
@@ -762,7 +814,7 @@
         <copied_from_name/>
         <description>品目が揃ったら、部品管理者にメールをする。</description>
         <internal_name>autodeliverback</internal_name>
-        <label_cache>[{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.part_no.part_name","label":"5➛オーダー部品 Record➛部品➛部品名","reference":"","reference_display":"部品名","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_part","column_name":"part_name"},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.part_no.part_no","label":"5➛オーダー部品 Record➛部品➛部品コード","reference":"","reference_display":"部品コード","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_part","column_name":"part_no"},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.flag","label":"5➛オーダー部品 Record➛状態","reference":"","reference_display":"状態","type":"choice","base_type":"choice","parent_table_name":"x_590393_ec_demo_order_part","column_name":"flag"},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.order_num","label":"5➛オーダー部品 Record➛数量","reference":"","reference_display":"数量","type":"integer","base_type":"integer","parent_table_name":"x_590393_ec_demo_order_part","column_name":"order_num"},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.part_no","label":"5➛オーダー部品 Record➛部品","reference":"x_590393_ec_demo_part","reference_display":"部品マスタ","type":"reference","base_type":"reference","parent_table_name":"x_590393_ec_demo_order_part","column_name":"part_no"},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.number","label":"5➛オーダー部品 Record➛オーダー番号","reference":"","reference_display":"オーダー番号","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_order_part","column_name":"number"},{"name":"b0cc571a-6ba4-475a-98de-25bbc2f5dd60.email","label":"6➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.table_name","label":"5➛オーダー部品 Table","reference":"x_590393_ec_demo_order_part","reference_display":"オーダー部品","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record","label":"5➛オーダー部品 Record","reference":"x_590393_ec_demo_order_part","reference_display":"オーダー部品","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2c0901a4-84e2-4c57-8c60-192b0694a6e6.email","label":"5➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"df93de42-517e-4cc3-abe3-762da6d8afe5.item","label":"4➛オーダー品目 Record","reference":"x_590393_ec_demo_order_item","reference_display":"オーダー品目","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"cbdf747a-6bdf-4087-8a44-84be55d25fdf.Records","label":"1➛オーダー部品 Records","reference":"x_590393_ec_demo_order_part","reference_display":"オーダー部品","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cbdf747a-6bdf-4087-8a44-84be55d25fdf.Table","label":"1➛オーダー部品 Table","reference":"x_590393_ec_demo_order_part","reference_display":"オーダー部品","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cbdf747a-6bdf-4087-8a44-84be55d25fdf.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e79780f1-cc5b-40d0-bdfa-a13fb9b5dbd8.item","label":"2➛オーダー部品 Record","reference":"x_590393_ec_demo_order_part","reference_display":"オーダー部品","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"44d544ed-b041-4110-8360-8759ed78189e.Records","label":"3➛オーダー品目 Records","reference":"x_590393_ec_demo_order_item","reference_display":"オーダー品目","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44d544ed-b041-4110-8360-8759ed78189e.Table","label":"3➛オーダー品目 Table","reference":"x_590393_ec_demo_order_item","reference_display":"オーダー品目","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44d544ed-b041-4110-8360-8759ed78189e.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e79780f1-cc5b-40d0-bdfa-a13fb9b5dbd8.item.number","label":"2➛オーダー部品 Record➛オーダー番号","reference":"","reference_display":"オーダー番号","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_order_part","column_name":"number"}]</label_cache>
+        <label_cache>[{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.order_user.last_name","label":"5➛オーダー部品 Record➛担当者➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name"},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.order_user.first_name","label":"5➛オーダー部品 Record➛担当者➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"e79780f1-cc5b-40d0-bdfa-a13fb9b5dbd8.item.order_user.email","label":"2➛オーダー部品 Record➛担当者➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"e79780f1-cc5b-40d0-bdfa-a13fb9b5dbd8.item.order_user.phone","label":"2➛オーダー部品 Record➛担当者➛Business phone","reference":"","reference_display":"Business phone","type":"ph_number","base_type":"ph_number","parent_table_name":"sys_user","column_name":"phone"},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.part_no.part_name","label":"5➛オーダー部品 Record➛部品➛部品名","reference":"","reference_display":"部品名","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_part","column_name":"part_name"},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.part_no.part_no","label":"5➛オーダー部品 Record➛部品➛部品コード","reference":"","reference_display":"部品コード","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_part","column_name":"part_no"},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.flag","label":"5➛オーダー部品 Record➛状態","reference":"","reference_display":"状態","type":"choice","base_type":"choice","parent_table_name":"x_590393_ec_demo_order_part","column_name":"flag"},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.order_num","label":"5➛オーダー部品 Record➛数量","reference":"","reference_display":"数量","type":"integer","base_type":"integer","parent_table_name":"x_590393_ec_demo_order_part","column_name":"order_num"},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.part_no","label":"5➛オーダー部品 Record➛部品","reference":"x_590393_ec_demo_part","reference_display":"部品マスタ","type":"reference","base_type":"reference","parent_table_name":"x_590393_ec_demo_order_part","column_name":"part_no"},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.number","label":"5➛オーダー部品 Record➛オーダー番号","reference":"","reference_display":"オーダー番号","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_order_part","column_name":"number"},{"name":"b0cc571a-6ba4-475a-98de-25bbc2f5dd60.email","label":"6➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.table_name","label":"5➛オーダー部品 Table","reference":"x_590393_ec_demo_order_part","reference_display":"オーダー部品","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record","label":"5➛オーダー部品 Record","reference":"x_590393_ec_demo_order_part","reference_display":"オーダー部品","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2c0901a4-84e2-4c57-8c60-192b0694a6e6.email","label":"5➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"df93de42-517e-4cc3-abe3-762da6d8afe5.item","label":"4➛オーダー品目 Record","reference":"x_590393_ec_demo_order_item","reference_display":"オーダー品目","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"cbdf747a-6bdf-4087-8a44-84be55d25fdf.Records","label":"1➛オーダー部品 Records","reference":"x_590393_ec_demo_order_part","reference_display":"オーダー部品","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cbdf747a-6bdf-4087-8a44-84be55d25fdf.Table","label":"1➛オーダー部品 Table","reference":"x_590393_ec_demo_order_part","reference_display":"オーダー部品","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cbdf747a-6bdf-4087-8a44-84be55d25fdf.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e79780f1-cc5b-40d0-bdfa-a13fb9b5dbd8.item","label":"2➛オーダー部品 Record","reference":"x_590393_ec_demo_order_part","reference_display":"オーダー部品","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"44d544ed-b041-4110-8360-8759ed78189e.Records","label":"3➛オーダー品目 Records","reference":"x_590393_ec_demo_order_item","reference_display":"オーダー品目","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44d544ed-b041-4110-8360-8759ed78189e.Table","label":"3➛オーダー品目 Table","reference":"x_590393_ec_demo_order_item","reference_display":"オーダー品目","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44d544ed-b041-4110-8360-8759ed78189e.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e79780f1-cc5b-40d0-bdfa-a13fb9b5dbd8.item.number","label":"2➛オーダー部品 Record➛オーダー番号","reference":"","reference_display":"オーダー番号","type":"string","base_type":"string","parent_table_name":"x_590393_ec_demo_order_part","column_name":"number"},{"name":"b3cb82db-7595-4c61-a829-c59cdb872fed.record.order_user","label":"5➛オーダー部品 Record➛担当者","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_590393_ec_demo_order_part","column_name":"order_user"}]</label_cache>
         <master>true</master>
         <name>autoDeliverBack</name>
         <natlang/>
@@ -779,7 +831,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>446a5dd32f2470100f2658a72799b661</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -787,7 +839,7 @@
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 04:58:25</sys_updated_on>
+        <sys_updated_on>2021-06-10 11:31:41</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=446a5dd32f2470100f2658a72799b661"/>
@@ -802,10 +854,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 04:58:27</sys_created_on>
         <sys_id>d06a5dd32f2470100f2658a72799b696</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 04:58:28</sys_updated_on>
+        <sys_updated_on>2021-06-10 11:31:43</sys_updated_on>
         <trigger_definition display_value="Repeat">f63f0d94c32222002841b63b12d3aeed</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -854,10 +906,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 04:58:26</sys_created_on>
         <sys_id>186a5dd32f2470100f2658a72799b68b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 04:58:26</sys_updated_on>
+        <sys_updated_on>2021-06-10 11:31:41</sys_updated_on>
         <ui_id>b3cb82db-7595-4c61-a829-c59cdb872fed</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=186a5dd32f2470100f2658a72799b68b"/>
@@ -940,10 +992,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 04:58:26</sys_created_on>
         <sys_id>506a5dd32f2470100f2658a72799b685</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 04:58:26</sys_updated_on>
+        <sys_updated_on>2021-06-10 11:31:41</sys_updated_on>
         <ui_id>44d544ed-b041-4110-8360-8759ed78189e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=506a5dd32f2470100f2658a72799b685"/>
@@ -1017,10 +1069,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 04:58:26</sys_created_on>
         <sys_id>906a5dd32f2470100f2658a72799b67d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 04:58:26</sys_updated_on>
+        <sys_updated_on>2021-06-10 11:31:40</sys_updated_on>
         <ui_id>cbdf747a-6bdf-4087-8a44-84be55d25fdf</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=906a5dd32f2470100f2658a72799b67d"/>
@@ -1081,10 +1133,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 04:58:26</sys_created_on>
         <sys_id>946a5dd32f2470100f2658a72799b693</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 04:58:26</sys_updated_on>
+        <sys_updated_on>2021-06-10 11:31:41</sys_updated_on>
         <ui_id>b0cc571a-6ba4-475a-98de-25bbc2f5dd60</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=946a5dd32f2470100f2658a72799b693"/>
@@ -1110,10 +1162,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 04:58:26</sys_created_on>
         <sys_id>586a5dd32f2470100f2658a72799b695</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 04:58:26</sys_updated_on>
-        <value>guohh@ewaysys.com</value>
+        <sys_updated_on>2021-06-10 11:31:39</sys_updated_on>
+        <value/>
         <variable display_value="To">59806bf4a70323008299b39f087901da</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1137,11 +1189,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 04:58:26</sys_created_on>
         <sys_id>146a5dd32f2470100f2658a72799b695</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 04:58:26</sys_updated_on>
+        <sys_updated_on>2021-06-10 11:31:39</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;order no:&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:5e840ceb-c023-4f79-b7c5-3744f5d1ad76}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:5e840ceb-c023-4f79-b7c5-3744f5d1ad76}}"&gt;&lt;span class="data-pill-content-container"&gt;5&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;オーダー部品 Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;オーダー番号&lt;button id="transform_function_facade_5e840ceb-c023-4f79-b7c5-3744f5d1ad76" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        <value>&lt;p data-tinymcerootblock=""&gt;担当者：&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:a536bb49-e4be-481b-987f-862d93a2aed8}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:a536bb49-e4be-481b-987f-862d93a2aed8}}"&gt;&lt;span class="data-pill-content-container"&gt;5&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;オーダー部品 Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;担当者&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;First name&lt;button id="transform_function_facade_a536bb49-e4be-481b-987f-862d93a2aed8" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:5a19205f-7fe2-42d9-8801-5709efbc609c}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:5a19205f-7fe2-42d9-8801-5709efbc609c}}"&gt;&lt;span class="data-pill-content-container"&gt;5&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;オーダー部品 Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;担当者&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Last name&lt;button id="transform_function_facade_5a19205f-7fe2-42d9-8801-5709efbc609c" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;order no:&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:5e840ceb-c023-4f79-b7c5-3744f5d1ad76}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:5e840ceb-c023-4f79-b7c5-3744f5d1ad76}}"&gt;&lt;span class="data-pill-content-container"&gt;5&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;オーダー部品 Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;オーダー番号&lt;button id="transform_function_facade_5e840ceb-c023-4f79-b7c5-3744f5d1ad76" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;部品：&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:0e83e58b-fe46-49b1-8b79-1a960270556e}}"&gt;&lt;span class="data-pill-content-container"&gt;5&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;オーダー部品 Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;部品&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;部品コード&lt;button id="transform_function_facade_0e83e58b-fe46-49b1-8b79-1a960270556e" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;，&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:6a814ed1-fba4-4864-9da2-34b8c37e86c4}}"&gt;&lt;span class="data-pill-content-container"&gt;5&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;オーダー部品 Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;部品&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;部品名&lt;button id="transform_function_facade_6a814ed1-fba4-4864-9da2-34b8c37e86c4" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;数量：&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:78aab99b-59ac-4556-a243-de56b9e6f1c8}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:78aab99b-59ac-4556-a243-de56b9e6f1c8}}"&gt;&lt;span class="data-pill-content-container"&gt;5&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;オーダー部品 Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;数量&lt;button id="transform_function_facade_78aab99b-59ac-4556-a243-de56b9e6f1c8" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;状态：&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:f1eed7eb-21c4-462a-a3e8-c614850605e2}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:f1eed7eb-21c4-462a-a3e8-c614850605e2}}"&gt;&lt;span class="data-pill-content-container"&gt;5&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;オーダー部品 Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;状態&lt;button id="transform_function_facade_f1eed7eb-21c4-462a-a3e8-c614850605e2" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
@@ -1164,11 +1217,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 04:58:26</sys_created_on>
         <sys_id>506a5dd32f2470100f2658a72799b695</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 04:58:26</sys_updated_on>
+        <sys_updated_on>2021-06-10 11:31:39</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value/>
+        <value>{{e79780f1-cc5b-40d0-bdfa-a13fb9b5dbd8.item.order_user.email}} </value>
     </sys_element_mapping>
     <sys_hub_flow_logic action="delete_multiple" query="flow=446a5dd32f2470100f2658a72799b661^sys_idNOT INc06a5dd32f2470100f2658a72799b671,c06a5dd32f2470100f2658a72799b674"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
@@ -1193,10 +1246,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 04:58:25</sys_created_on>
         <sys_id>c06a5dd32f2470100f2658a72799b671</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 04:58:26</sys_updated_on>
+        <sys_updated_on>2021-06-10 11:31:41</sys_updated_on>
         <ui_id>e79780f1-cc5b-40d0-bdfa-a13fb9b5dbd8</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1237,10 +1290,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 04:58:26</sys_created_on>
         <sys_id>c06a5dd32f2470100f2658a72799b674</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 04:58:26</sys_updated_on>
+        <sys_updated_on>2021-06-10 11:31:41</sys_updated_on>
         <ui_id>c1eaf811-00dd-4ee9-afa2-bb8b3f767b99</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1285,7 +1338,7 @@
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=446a5dd32f2470100f2658a72799b661^sys_idNOT IN106a5dd32f2470100f2658a72799b697,146a5dd32f2470100f2658a72799b697,1c6a5dd32f2470100f2658a72799b696,906a5dd32f2470100f2658a72799b697,946a5dd32f2470100f2658a72799b697,9c6a5dd32f2470100f2658a72799b696"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=446a5dd32f2470100f2658a72799b661^sys_idNOT IN106a5dd32f2470100f2658a72799b697,146a5dd32f2470100f2658a72799b697,1c6a5dd32f2470100f2658a72799b696,906a5dd32f2470100f2658a72799b697,946a5dd32f2470100f2658a72799b697,9c6a5dd32f2470100f2658a72799b696,bc64325b2f6870100f2658a72799b6c5,f064325b2f6870100f2658a72799b6c6,f864325b2f6870100f2658a72799b6c5"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>446a5dd32f2470100f2658a72799b661</attached_to>
         <extra_info/>
@@ -1387,5 +1440,56 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>0e83e58b-fe46-49b1-8b79-1a960270556e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>446a5dd32f2470100f2658a72799b661</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b3cb82db-7595-4c61-a829-c59cdb872fed.record.order_user}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-10 11:31:41</sys_created_on>
+        <sys_id>bc64325b2f6870100f2658a72799b6c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-10 11:31:41</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>68cb2caa-940c-4488-9864-d32f36495131</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>446a5dd32f2470100f2658a72799b661</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b3cb82db-7595-4c61-a829-c59cdb872fed.record.order_user.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-10 11:31:41</sys_created_on>
+        <sys_id>f064325b2f6870100f2658a72799b6c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-10 11:31:41</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>a536bb49-e4be-481b-987f-862d93a2aed8</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>446a5dd32f2470100f2658a72799b661</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b3cb82db-7595-4c61-a829-c59cdb872fed.record.order_user.last_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-10 11:31:41</sys_created_on>
+        <sys_id>f864325b2f6870100f2658a72799b6c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-10 11:31:41</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5a19205f-7fe2-42d9-8801-5709efbc609c</ui_id>
     </sys_hub_pill_compound>
 </record_update>
