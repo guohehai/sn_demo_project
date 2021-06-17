@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">e6d502e12fb030100f2658a72799b613</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-17 07:57:26</sys_created_on>
+        <sys_id>6e768ae12fb030100f2658a72799b671</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>YFC</sys_name>
+        <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_update_name>sp_instance_6e768ae12fb030100f2658a72799b671</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-17 07:58:47</sys_updated_on>
+        <title>YFC</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<h2><em><strong>WELCOME！！</strong></em></h2><p><b><i>これは　郭の　Demo　案件の　HTML部分。</i></b></p>",
+		"displayValue": "<h2><em><strong>WELCOME！！</strong></em></h2>\n<p><strong><em>これは　郭の　Demo　案件の　HTML部分。</em></strong></p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=6e768ae12fb030100f2658a72799b671"/>
+</record_update>
