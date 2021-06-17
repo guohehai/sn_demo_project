@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>manage - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="manage">d41d79a92f7030100f2658a72799b6c2</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-17 07:16:20</sys_created_on>
+        <sys_id>d81d79a92f7030100f2658a72799b6c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>manage - Container 1</sys_name>
+        <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_update_name>sp_container_d81d79a92f7030100f2658a72799b6c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-17 07:16:20</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>
