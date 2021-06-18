@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_policy">
+    <sys_sg_ui_policy action="DELETE">
+        <active>true</active>
+        <condition table="x_590393_ec_demo_order_part">sys_created_onISNOTEMPTY^EQ<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name>ec order part</name>
+        <order/>
+        <reverse_if_false>false</reverse_if_false>
+        <short_description>can not update some fields</short_description>
+        <sys_class_name>sys_sg_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-18 05:13:55</sys_created_on>
+        <sys_id>786a22392fb030100f2658a72799b609</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ec order part</sys_name>
+        <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_update_name>sys_sg_ui_policy_786a22392fb030100f2658a72799b609</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-18 05:13:55</sys_updated_on>
+        <table>x_590393_ec_demo_order_part</table>
+    </sys_sg_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</application>
+        <file_path/>
+        <instance_id>abc9e184db775b044c1ff70fbf961981</instance_id>
+        <instance_name>dev68666</instance_name>
+        <name>sys_sg_ui_policy_786a22392fb030100f2658a72799b609</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_policy"><sys_sg_ui_policy action="INSERT_OR_UPDATE"><active>true</active><condition table="x_590393_ec_demo_order_part">sys_created_onISNOTEMPTY^EQ<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><name>ec order part</name><order/><reverse_if_false>false</reverse_if_false><short_description>can not update some fields</short_description><sys_class_name>sys_sg_ui_policy</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-18 05:13:55</sys_created_on><sys_id>786a22392fb030100f2658a72799b609</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ec order part</sys_name><sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package><sys_policy/><sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope><sys_update_name>sys_sg_ui_policy_786a22392fb030100f2658a72799b609</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-18 05:13:55</sys_updated_on><table>x_590393_ec_demo_order_part</table></sys_sg_ui_policy></record_update>]]></payload>
+        <payload_hash>1005882595</payload_hash>
+        <record_name>ec order part</record_name>
+        <reverted_from/>
+        <source>a5a582a12fb030100f2658a72799b6c3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-18 05:13:55</sys_created_on>
+        <sys_id>19aa26f52fb030100f2658a72799b6c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a1d8a391c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-18 05:13:55</sys_updated_on>
+        <type>Screen UI Policy</type>
+        <update_guid>51aa26f5afb030103a9da56bfff867c5</update_guid>
+        <update_guid_history>51aa26f5afb030103a9da56bfff867c5:1005882595</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-18 05:21:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_ui_policy">sys_sg_ui_policy</sys_db_object>
+        <sys_id>51de6a56b8424e6481d9041f8bf77410</sys_id>
+        <sys_metadata>786a22392fb030100f2658a72799b609</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ec order part</sys_name>
+        <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">269806daf1544c2a8d525a9f49a20361</sys_scope_delete>
+        <sys_update_name>sys_sg_ui_policy_786a22392fb030100f2658a72799b609</sys_update_name>
+        <sys_update_version display_value="sys_sg_ui_policy_786a22392fb030100f2658a72799b609">19aa26f52fb030100f2658a72799b6c5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-18 05:21:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
