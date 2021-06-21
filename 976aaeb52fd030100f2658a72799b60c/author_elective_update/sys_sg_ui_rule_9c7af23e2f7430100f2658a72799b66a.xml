@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule">
+    <sys_sg_ui_rule action="DELETE">
+        <active>true</active>
+        <condition/>
+        <name>can not update some fileds(order_part)</name>
+        <order/>
+        <parent_id>c47abe752f1430100f2658a72799b6af</parent_id>
+        <parent_table>sys_sg_parameter_screen</parent_table>
+        <reverse_if_false>false</reverse_if_false>
+        <sys_class_name>sys_sg_ui_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-21 08:58:27</sys_created_on>
+        <sys_id>9c7af23e2f7430100f2658a72799b66a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>can not update some fileds(order_part)</sys_name>
+        <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_update_name>sys_sg_ui_rule_9c7af23e2f7430100f2658a72799b66a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-21 09:09:29</sys_updated_on>
+        <trigger>fd680bd85b431010da168d8fa881c7c8</trigger>
+    </sys_sg_ui_rule>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</application>
+        <file_path/>
+        <instance_id>abc9e184db775b044c1ff70fbf961981</instance_id>
+        <instance_name>dev68666</instance_name>
+        <name>sys_sg_ui_rule_9c7af23e2f7430100f2658a72799b66a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule"><sys_sg_ui_rule action="INSERT_OR_UPDATE"><active>true</active><condition/><name>can not update some fileds(order_part)</name><order/><parent_id>c47abe752f1430100f2658a72799b6af</parent_id><parent_table>sys_sg_parameter_screen</parent_table><reverse_if_false>false</reverse_if_false><sys_class_name>sys_sg_ui_rule</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-21 08:58:27</sys_created_on><sys_id>9c7af23e2f7430100f2658a72799b66a</sys_id><sys_mod_count>3</sys_mod_count><sys_name>can not update some fileds(order_part)</sys_name><sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package><sys_policy/><sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope><sys_update_name>sys_sg_ui_rule_9c7af23e2f7430100f2658a72799b66a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-21 09:09:29</sys_updated_on><trigger>fd680bd85b431010da168d8fa881c7c8</trigger></sys_sg_ui_rule></record_update>]]></payload>
+        <payload_hash>363820527</payload_hash>
+        <record_name>can not update some fileds(order_part)</record_name>
+        <reverted_from/>
+        <source>a5a582a12fb030100f2658a72799b6c3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-21 09:09:29</sys_created_on>
+        <sys_id>f85dba7e2f7430100f2658a72799b6e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a2dd4f6b10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-21 09:09:29</sys_updated_on>
+        <type>Mobile UI Rule</type>
+        <update_guid>f05dba7e80743010e7ea1bbf453177e6</update_guid>
+        <update_guid_history>f05dba7e80743010e7ea1bbf453177e6:363820527,44dbfefabd743010a16620a2f3440469:975983779,259b367ebc743010c1beb05b2e42b021:363820527,83ca32faef7430100176e01231c9c041:975983779</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-21 09:12:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_ui_rule">sys_sg_ui_rule</sys_db_object>
+        <sys_id>55cf7196b3aa47699ce09fe18aed67b1</sys_id>
+        <sys_metadata>9c7af23e2f7430100f2658a72799b66a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>can not update some fileds(order_part)</sys_name>
+        <sys_package display_value="EC Demo" source="x_590393_ec_demo">976aaeb52fd030100f2658a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EC Demo">976aaeb52fd030100f2658a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">269806daf1544c2a8d525a9f49a20361</sys_scope_delete>
+        <sys_update_name>sys_sg_ui_rule_9c7af23e2f7430100f2658a72799b66a</sys_update_name>
+        <sys_update_version display_value="sys_sg_ui_rule_9c7af23e2f7430100f2658a72799b66a">f85dba7e2f7430100f2658a72799b6e6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-21 09:12:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
